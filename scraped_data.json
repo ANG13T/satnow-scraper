@@ -1,0 +1,1436 @@
+{
+    "items": [
+        {
+            "title": "Digital Sun Sensor for SmallSats",
+            "link": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "image": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "organization": "AAC Clyde Space",
+            "sku": "SKU:SSOC-D60",
+            "details": {
+                "Satellite Type": "SmallSat, NanoSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.3 Degree (3-sigma)",
+                "Sun Field of View": "\u00b160 Degree",
+                "Mass": "35 g",
+                "Radiation Tolerance": "100 krad (gamma)",
+                "Supply Voltage": "5 V",
+                "Interface": "UART, I2C, SPI, RS-422"
+            }
+        },
+        {
+            "title": "An Analogue Quadrant Detector Fine Sun Sensor (FSS)",
+            "link": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "image": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "organization": "Bradford Space",
+            "sku": "SKU:Fine Sun Sensor (FSS)",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.3 Degree",
+                "Sun Field of View": "128 x 128 Degree(Nominal FOV), 138 x 138 Degree(Unobstructed FOV (To Be Free Of Straylight Sources)",
+                "Mass": "375 g",
+                "Radiation Tolerance": "10 krad",
+                "Supply Voltage": "0 to 5 V",
+                "Power Consumption": "0.25 W",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Sun Sensor for LEO & GEO Orbits",
+            "link": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "image": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "organization": "SITAEL",
+            "sku": "SKU:SITAEL Sun",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.5 Degree",
+                "Sun Field of View": "140 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "240 g",
+                "Supply Voltage": "12 to 50 V",
+                "Power Consumption": "50 mW",
+                "Interface": "RS-422, CAN, SPI"
+            }
+        },
+        {
+            "title": "Antrix Corporation Limited - 4pi sun sensors",
+            "link": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "image": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "organization": "Antrix Corporation Limited",
+            "sku": "Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b15 Degree",
+                "Mass": "50 g",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Three Analogue Fine Sun Sensors up to 114\u00b0 FOV",
+            "link": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "image": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "organization": "Berlin Space Technologies",
+            "sku": "SKU:FSSA-110",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b15 Degree",
+                "Sun Field of View": "Up to 114 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "With 3x Sensors: 102 gms, \u00b15 gms, Without Sensors: 87 g \u00b15 g",
+                "Radiation Tolerance": "20 krad",
+                "Supply Voltage": "5 V",
+                "Power Consumption": "185 mW",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "CubeSpace Satellite Systems - CubeSense Sun GEN 2",
+            "link": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "image": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "organization": "CubeSpace Satellite Systems",
+            "sku": "Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Accuracy": "0.2 Degree",
+                "Sun Field of View": "166 to 176 Degree",
+                "Update Rate": "Up to 2 Hz",
+                "Mass": "15 gms",
+                "Radiation Tolerance": "24 krad",
+                "Supply Voltage": "3.3 V",
+                "Power Consumption": "174 mW (Peak power)",
+                "Interface": "CAN, UART, RS-485, I2C"
+            }
+        },
+        {
+            "title": "Analog Fine Sun Sensor for Telecom & Scientific Satellites",
+            "link": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "image": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "organization": "Jena-Optronik GmbH",
+            "sku": "SKU:FSS",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "0.15 Degee",
+                "Sun Field of View": "128 Degree",
+                "Mass": "650 g",
+                "Supply Voltage": "13 to 15 V",
+                "Power Consumption": "200 mW"
+            }
+        },
+        {
+            "title": "Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector",
+            "link": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "image": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "organization": "Leonardo",
+            "sku": "SKU:S3",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor, Digital Sun Sensor",
+                "Accuracy": "\u00b10.02 Degree",
+                "Sun Field of View": "128 x 128 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "330 g",
+                "Radiation Tolerance": "100 to 300 krad",
+                "Supply Voltage": "5 to 50 V",
+                "Power Consumption": "700 mW to 1 W",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "Fine Pointing High Accuracy Attitude Determination Sun Sensor",
+            "link": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "image": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "organization": "Redwire Space",
+            "sku": "SKU:Fine Pointing Sun Sensor",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b10.002 to 0.005 Degree",
+                "Sun Field of View": "4.25 x 4.25 Degree",
+                "Mass": "2030 g",
+                "Radiation Tolerance": "100 krad",
+                "Supply Voltage": "28 \u00b17 V",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "45 Degree Solar Sun Sensor from 6 to 36 V",
+            "link": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "image": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "organization": "SPUTNIX",
+            "sku": "SKU:SX-SBOX-SUNS-01",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.15 Degree",
+                "Sun Field of View": "45 Degree(line of sight)",
+                "Mass": "45 g",
+                "Supply Voltage": "6 to 36 V",
+                "Power Consumption": "0.4 W",
+                "Space Heritage": "Yes",
+                "Interface": "CAN"
+            }
+        },
+        {
+            "title": "Digital Sun Sensor for SmallSats",
+            "link": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "image": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "organization": "AAC Clyde Space",
+            "sku": "SKU:SSOC-D60",
+            "details": {
+                "Satellite Type": "SmallSat, NanoSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.3 Degree (3-sigma)",
+                "Sun Field of View": "\u00b160 Degree",
+                "Mass": "35 g",
+                "Radiation Tolerance": "100 krad (gamma)",
+                "Supply Voltage": "5 V",
+                "Interface": "UART, I2C, SPI, RS-422"
+            }
+        },
+        {
+            "title": "An Analogue Quadrant Detector Fine Sun Sensor (FSS)",
+            "link": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "image": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "organization": "Bradford Space",
+            "sku": "SKU:Fine Sun Sensor (FSS)",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.3 Degree",
+                "Sun Field of View": "128 x 128 Degree(Nominal FOV), 138 x 138 Degree(Unobstructed FOV (To Be Free Of Straylight Sources)",
+                "Mass": "375 g",
+                "Radiation Tolerance": "10 krad",
+                "Supply Voltage": "0 to 5 V",
+                "Power Consumption": "0.25 W",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Sun Sensor for LEO & GEO Orbits",
+            "link": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "image": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "organization": "SITAEL",
+            "sku": "SKU:SITAEL Sun",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.5 Degree",
+                "Sun Field of View": "140 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "240 g",
+                "Supply Voltage": "12 to 50 V",
+                "Power Consumption": "50 mW",
+                "Interface": "RS-422, CAN, SPI"
+            }
+        },
+        {
+            "title": "Antrix Corporation Limited - 4pi sun sensors",
+            "link": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "image": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "organization": "Antrix Corporation Limited",
+            "sku": "Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b15 Degree",
+                "Mass": "50 g",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Three Analogue Fine Sun Sensors up to 114\u00b0 FOV",
+            "link": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "image": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "organization": "Berlin Space Technologies",
+            "sku": "SKU:FSSA-110",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b15 Degree",
+                "Sun Field of View": "Up to 114 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "With 3x Sensors: 102 gms, \u00b15 gms, Without Sensors: 87 g \u00b15 g",
+                "Radiation Tolerance": "20 krad",
+                "Supply Voltage": "5 V",
+                "Power Consumption": "185 mW",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "CubeSpace Satellite Systems - CubeSense Sun GEN 2",
+            "link": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "image": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "organization": "CubeSpace Satellite Systems",
+            "sku": "Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Accuracy": "0.2 Degree",
+                "Sun Field of View": "166 to 176 Degree",
+                "Update Rate": "Up to 2 Hz",
+                "Mass": "15 gms",
+                "Radiation Tolerance": "24 krad",
+                "Supply Voltage": "3.3 V",
+                "Power Consumption": "174 mW (Peak power)",
+                "Interface": "CAN, UART, RS-485, I2C"
+            }
+        },
+        {
+            "title": "Analog Fine Sun Sensor for Telecom & Scientific Satellites",
+            "link": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "image": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "organization": "Jena-Optronik GmbH",
+            "sku": "SKU:FSS",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "0.15 Degee",
+                "Sun Field of View": "128 Degree",
+                "Mass": "650 g",
+                "Supply Voltage": "13 to 15 V",
+                "Power Consumption": "200 mW"
+            }
+        },
+        {
+            "title": "Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector",
+            "link": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "image": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "organization": "Leonardo",
+            "sku": "SKU:S3",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor, Digital Sun Sensor",
+                "Accuracy": "\u00b10.02 Degree",
+                "Sun Field of View": "128 x 128 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "330 g",
+                "Radiation Tolerance": "100 to 300 krad",
+                "Supply Voltage": "5 to 50 V",
+                "Power Consumption": "700 mW to 1 W",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "Fine Pointing High Accuracy Attitude Determination Sun Sensor",
+            "link": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "image": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "organization": "Redwire Space",
+            "sku": "SKU:Fine Pointing Sun Sensor",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b10.002 to 0.005 Degree",
+                "Sun Field of View": "4.25 x 4.25 Degree",
+                "Mass": "2030 g",
+                "Radiation Tolerance": "100 krad",
+                "Supply Voltage": "28 \u00b17 V",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "45 Degree Solar Sun Sensor from 6 to 36 V",
+            "link": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "image": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "organization": "SPUTNIX",
+            "sku": "SKU:SX-SBOX-SUNS-01",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.15 Degree",
+                "Sun Field of View": "45 Degree(line of sight)",
+                "Mass": "45 g",
+                "Supply Voltage": "6 to 36 V",
+                "Power Consumption": "0.4 W",
+                "Space Heritage": "Yes",
+                "Interface": "CAN"
+            }
+        },
+        {
+            "title": "Digital Sun Sensor for SmallSats",
+            "link": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "image": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "organization": "AAC Clyde Space",
+            "sku": "SKU:SSOC-D60",
+            "details": {
+                "Satellite Type": "SmallSat, NanoSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.3 Degree (3-sigma)",
+                "Sun Field of View": "\u00b160 Degree",
+                "Mass": "35 g",
+                "Radiation Tolerance": "100 krad (gamma)",
+                "Supply Voltage": "5 V",
+                "Interface": "UART, I2C, SPI, RS-422"
+            }
+        },
+        {
+            "title": "An Analogue Quadrant Detector Fine Sun Sensor (FSS)",
+            "link": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "image": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "organization": "Bradford Space",
+            "sku": "SKU:Fine Sun Sensor (FSS)",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.3 Degree",
+                "Sun Field of View": "128 x 128 Degree(Nominal FOV), 138 x 138 Degree(Unobstructed FOV (To Be Free Of Straylight Sources)",
+                "Mass": "375 g",
+                "Radiation Tolerance": "10 krad",
+                "Supply Voltage": "0 to 5 V",
+                "Power Consumption": "0.25 W",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Sun Sensor for LEO & GEO Orbits",
+            "link": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "image": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "organization": "SITAEL",
+            "sku": "SKU:SITAEL Sun",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.5 Degree",
+                "Sun Field of View": "140 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "240 g",
+                "Supply Voltage": "12 to 50 V",
+                "Power Consumption": "50 mW",
+                "Interface": "RS-422, CAN, SPI"
+            }
+        },
+        {
+            "title": "Antrix Corporation Limited - 4pi sun sensors",
+            "link": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "image": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "organization": "Antrix Corporation Limited",
+            "sku": "Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b15 Degree",
+                "Mass": "50 g",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Three Analogue Fine Sun Sensors up to 114\u00b0 FOV",
+            "link": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "image": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "organization": "Berlin Space Technologies",
+            "sku": "SKU:FSSA-110",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b15 Degree",
+                "Sun Field of View": "Up to 114 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "With 3x Sensors: 102 gms, \u00b15 gms, Without Sensors: 87 g \u00b15 g",
+                "Radiation Tolerance": "20 krad",
+                "Supply Voltage": "5 V",
+                "Power Consumption": "185 mW",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "CubeSpace Satellite Systems - CubeSense Sun GEN 2",
+            "link": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "image": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "organization": "CubeSpace Satellite Systems",
+            "sku": "Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Accuracy": "0.2 Degree",
+                "Sun Field of View": "166 to 176 Degree",
+                "Update Rate": "Up to 2 Hz",
+                "Mass": "15 gms",
+                "Radiation Tolerance": "24 krad",
+                "Supply Voltage": "3.3 V",
+                "Power Consumption": "174 mW (Peak power)",
+                "Interface": "CAN, UART, RS-485, I2C"
+            }
+        },
+        {
+            "title": "Analog Fine Sun Sensor for Telecom & Scientific Satellites",
+            "link": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "image": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "organization": "Jena-Optronik GmbH",
+            "sku": "SKU:FSS",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "0.15 Degee",
+                "Sun Field of View": "128 Degree",
+                "Mass": "650 g",
+                "Supply Voltage": "13 to 15 V",
+                "Power Consumption": "200 mW"
+            }
+        },
+        {
+            "title": "Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector",
+            "link": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "image": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "organization": "Leonardo",
+            "sku": "SKU:S3",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor, Digital Sun Sensor",
+                "Accuracy": "\u00b10.02 Degree",
+                "Sun Field of View": "128 x 128 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "330 g",
+                "Radiation Tolerance": "100 to 300 krad",
+                "Supply Voltage": "5 to 50 V",
+                "Power Consumption": "700 mW to 1 W",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "Fine Pointing High Accuracy Attitude Determination Sun Sensor",
+            "link": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "image": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "organization": "Redwire Space",
+            "sku": "SKU:Fine Pointing Sun Sensor",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b10.002 to 0.005 Degree",
+                "Sun Field of View": "4.25 x 4.25 Degree",
+                "Mass": "2030 g",
+                "Radiation Tolerance": "100 krad",
+                "Supply Voltage": "28 \u00b17 V",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "45 Degree Solar Sun Sensor from 6 to 36 V",
+            "link": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "image": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "organization": "SPUTNIX",
+            "sku": "SKU:SX-SBOX-SUNS-01",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.15 Degree",
+                "Sun Field of View": "45 Degree(line of sight)",
+                "Mass": "45 g",
+                "Supply Voltage": "6 to 36 V",
+                "Power Consumption": "0.4 W",
+                "Space Heritage": "Yes",
+                "Interface": "CAN"
+            }
+        },
+        {
+            "title": "Digital Sun Sensor for SmallSats",
+            "link": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "image": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "organization": "AAC Clyde Space",
+            "sku": "SKU:SSOC-D60",
+            "details": {
+                "Satellite Type": "SmallSat, NanoSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.3 Degree (3-sigma)",
+                "Sun Field of View": "\u00b160 Degree",
+                "Mass": "35 g",
+                "Radiation Tolerance": "100 krad (gamma)",
+                "Supply Voltage": "5 V",
+                "Interface": "UART, I2C, SPI, RS-422"
+            }
+        },
+        {
+            "title": "An Analogue Quadrant Detector Fine Sun Sensor (FSS)",
+            "link": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "image": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "organization": "Bradford Space",
+            "sku": "SKU:Fine Sun Sensor (FSS)",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.3 Degree",
+                "Sun Field of View": "128 x 128 Degree(Nominal FOV), 138 x 138 Degree(Unobstructed FOV (To Be Free Of Straylight Sources)",
+                "Mass": "375 g",
+                "Radiation Tolerance": "10 krad",
+                "Supply Voltage": "0 to 5 V",
+                "Power Consumption": "0.25 W",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Sun Sensor for LEO & GEO Orbits",
+            "link": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "image": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "organization": "SITAEL",
+            "sku": "SKU:SITAEL Sun",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.5 Degree",
+                "Sun Field of View": "140 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "240 g",
+                "Supply Voltage": "12 to 50 V",
+                "Power Consumption": "50 mW",
+                "Interface": "RS-422, CAN, SPI"
+            }
+        },
+        {
+            "title": "Antrix Corporation Limited - 4pi sun sensors",
+            "link": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "image": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "organization": "Antrix Corporation Limited",
+            "sku": "Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b15 Degree",
+                "Mass": "50 g",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Three Analogue Fine Sun Sensors up to 114\u00b0 FOV",
+            "link": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "image": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "organization": "Berlin Space Technologies",
+            "sku": "SKU:FSSA-110",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b15 Degree",
+                "Sun Field of View": "Up to 114 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "With 3x Sensors: 102 gms, \u00b15 gms, Without Sensors: 87 g \u00b15 g",
+                "Radiation Tolerance": "20 krad",
+                "Supply Voltage": "5 V",
+                "Power Consumption": "185 mW",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "CubeSpace Satellite Systems - CubeSense Sun GEN 2",
+            "link": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "image": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "organization": "CubeSpace Satellite Systems",
+            "sku": "Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Accuracy": "0.2 Degree",
+                "Sun Field of View": "166 to 176 Degree",
+                "Update Rate": "Up to 2 Hz",
+                "Mass": "15 gms",
+                "Radiation Tolerance": "24 krad",
+                "Supply Voltage": "3.3 V",
+                "Power Consumption": "174 mW (Peak power)",
+                "Interface": "CAN, UART, RS-485, I2C"
+            }
+        },
+        {
+            "title": "Analog Fine Sun Sensor for Telecom & Scientific Satellites",
+            "link": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "image": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "organization": "Jena-Optronik GmbH",
+            "sku": "SKU:FSS",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "0.15 Degee",
+                "Sun Field of View": "128 Degree",
+                "Mass": "650 g",
+                "Supply Voltage": "13 to 15 V",
+                "Power Consumption": "200 mW"
+            }
+        },
+        {
+            "title": "Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector",
+            "link": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "image": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "organization": "Leonardo",
+            "sku": "SKU:S3",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor, Digital Sun Sensor",
+                "Accuracy": "\u00b10.02 Degree",
+                "Sun Field of View": "128 x 128 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "330 g",
+                "Radiation Tolerance": "100 to 300 krad",
+                "Supply Voltage": "5 to 50 V",
+                "Power Consumption": "700 mW to 1 W",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "Fine Pointing High Accuracy Attitude Determination Sun Sensor",
+            "link": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "image": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "organization": "Redwire Space",
+            "sku": "SKU:Fine Pointing Sun Sensor",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b10.002 to 0.005 Degree",
+                "Sun Field of View": "4.25 x 4.25 Degree",
+                "Mass": "2030 g",
+                "Radiation Tolerance": "100 krad",
+                "Supply Voltage": "28 \u00b17 V",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "45 Degree Solar Sun Sensor from 6 to 36 V",
+            "link": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "image": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "organization": "SPUTNIX",
+            "sku": "SKU:SX-SBOX-SUNS-01",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.15 Degree",
+                "Sun Field of View": "45 Degree(line of sight)",
+                "Mass": "45 g",
+                "Supply Voltage": "6 to 36 V",
+                "Power Consumption": "0.4 W",
+                "Space Heritage": "Yes",
+                "Interface": "CAN"
+            }
+        },
+        {
+            "title": "Digital Sun Sensor for SmallSats",
+            "link": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "image": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "organization": "AAC Clyde Space",
+            "sku": "SKU:SSOC-D60",
+            "details": {
+                "Satellite Type": "SmallSat, NanoSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.3 Degree (3-sigma)",
+                "Sun Field of View": "\u00b160 Degree",
+                "Mass": "35 g",
+                "Radiation Tolerance": "100 krad (gamma)",
+                "Supply Voltage": "5 V",
+                "Interface": "UART, I2C, SPI, RS-422"
+            }
+        },
+        {
+            "title": "An Analogue Quadrant Detector Fine Sun Sensor (FSS)",
+            "link": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "image": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "organization": "Bradford Space",
+            "sku": "SKU:Fine Sun Sensor (FSS)",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.3 Degree",
+                "Sun Field of View": "128 x 128 Degree(Nominal FOV), 138 x 138 Degree(Unobstructed FOV (To Be Free Of Straylight Sources)",
+                "Mass": "375 g",
+                "Radiation Tolerance": "10 krad",
+                "Supply Voltage": "0 to 5 V",
+                "Power Consumption": "0.25 W",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Sun Sensor for LEO & GEO Orbits",
+            "link": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "image": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "organization": "SITAEL",
+            "sku": "SKU:SITAEL Sun",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.5 Degree",
+                "Sun Field of View": "140 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "240 g",
+                "Supply Voltage": "12 to 50 V",
+                "Power Consumption": "50 mW",
+                "Interface": "RS-422, CAN, SPI"
+            }
+        },
+        {
+            "title": "Antrix Corporation Limited - 4pi sun sensors",
+            "link": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "image": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "organization": "Antrix Corporation Limited",
+            "sku": "Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b15 Degree",
+                "Mass": "50 g",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Three Analogue Fine Sun Sensors up to 114\u00b0 FOV",
+            "link": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "image": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "organization": "Berlin Space Technologies",
+            "sku": "SKU:FSSA-110",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b15 Degree",
+                "Sun Field of View": "Up to 114 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "With 3x Sensors: 102 gms, \u00b15 gms, Without Sensors: 87 g \u00b15 g",
+                "Radiation Tolerance": "20 krad",
+                "Supply Voltage": "5 V",
+                "Power Consumption": "185 mW",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "CubeSpace Satellite Systems - CubeSense Sun GEN 2",
+            "link": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "image": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "organization": "CubeSpace Satellite Systems",
+            "sku": "Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Accuracy": "0.2 Degree",
+                "Sun Field of View": "166 to 176 Degree",
+                "Update Rate": "Up to 2 Hz",
+                "Mass": "15 gms",
+                "Radiation Tolerance": "24 krad",
+                "Supply Voltage": "3.3 V",
+                "Power Consumption": "174 mW (Peak power)",
+                "Interface": "CAN, UART, RS-485, I2C"
+            }
+        },
+        {
+            "title": "Analog Fine Sun Sensor for Telecom & Scientific Satellites",
+            "link": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "image": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "organization": "Jena-Optronik GmbH",
+            "sku": "SKU:FSS",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "0.15 Degee",
+                "Sun Field of View": "128 Degree",
+                "Mass": "650 g",
+                "Supply Voltage": "13 to 15 V",
+                "Power Consumption": "200 mW"
+            }
+        },
+        {
+            "title": "Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector",
+            "link": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "image": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "organization": "Leonardo",
+            "sku": "SKU:S3",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor, Digital Sun Sensor",
+                "Accuracy": "\u00b10.02 Degree",
+                "Sun Field of View": "128 x 128 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "330 g",
+                "Radiation Tolerance": "100 to 300 krad",
+                "Supply Voltage": "5 to 50 V",
+                "Power Consumption": "700 mW to 1 W",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "Fine Pointing High Accuracy Attitude Determination Sun Sensor",
+            "link": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "image": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "organization": "Redwire Space",
+            "sku": "SKU:Fine Pointing Sun Sensor",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b10.002 to 0.005 Degree",
+                "Sun Field of View": "4.25 x 4.25 Degree",
+                "Mass": "2030 g",
+                "Radiation Tolerance": "100 krad",
+                "Supply Voltage": "28 \u00b17 V",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "45 Degree Solar Sun Sensor from 6 to 36 V",
+            "link": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "image": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "organization": "SPUTNIX",
+            "sku": "SKU:SX-SBOX-SUNS-01",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.15 Degree",
+                "Sun Field of View": "45 Degree(line of sight)",
+                "Mass": "45 g",
+                "Supply Voltage": "6 to 36 V",
+                "Power Consumption": "0.4 W",
+                "Space Heritage": "Yes",
+                "Interface": "CAN"
+            }
+        },
+        {
+            "title": "Digital Sun Sensor for SmallSats",
+            "link": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "image": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "organization": "AAC Clyde Space",
+            "sku": "SKU:SSOC-D60",
+            "details": {
+                "Satellite Type": "SmallSat, NanoSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.3 Degree (3-sigma)",
+                "Sun Field of View": "\u00b160 Degree",
+                "Mass": "35 g",
+                "Radiation Tolerance": "100 krad (gamma)",
+                "Supply Voltage": "5 V",
+                "Interface": "UART, I2C, SPI, RS-422"
+            }
+        },
+        {
+            "title": "An Analogue Quadrant Detector Fine Sun Sensor (FSS)",
+            "link": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "image": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "organization": "Bradford Space",
+            "sku": "SKU:Fine Sun Sensor (FSS)",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.3 Degree",
+                "Sun Field of View": "128 x 128 Degree(Nominal FOV), 138 x 138 Degree(Unobstructed FOV (To Be Free Of Straylight Sources)",
+                "Mass": "375 g",
+                "Radiation Tolerance": "10 krad",
+                "Supply Voltage": "0 to 5 V",
+                "Power Consumption": "0.25 W",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Sun Sensor for LEO & GEO Orbits",
+            "link": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "image": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "organization": "SITAEL",
+            "sku": "SKU:SITAEL Sun",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.5 Degree",
+                "Sun Field of View": "140 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "240 g",
+                "Supply Voltage": "12 to 50 V",
+                "Power Consumption": "50 mW",
+                "Interface": "RS-422, CAN, SPI"
+            }
+        },
+        {
+            "title": "Antrix Corporation Limited - 4pi sun sensors",
+            "link": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "image": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "organization": "Antrix Corporation Limited",
+            "sku": "Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b15 Degree",
+                "Mass": "50 g",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Three Analogue Fine Sun Sensors up to 114\u00b0 FOV",
+            "link": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "image": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "organization": "Berlin Space Technologies",
+            "sku": "SKU:FSSA-110",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b15 Degree",
+                "Sun Field of View": "Up to 114 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "With 3x Sensors: 102 gms, \u00b15 gms, Without Sensors: 87 g \u00b15 g",
+                "Radiation Tolerance": "20 krad",
+                "Supply Voltage": "5 V",
+                "Power Consumption": "185 mW",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "CubeSpace Satellite Systems - CubeSense Sun GEN 2",
+            "link": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "image": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "organization": "CubeSpace Satellite Systems",
+            "sku": "Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Accuracy": "0.2 Degree",
+                "Sun Field of View": "166 to 176 Degree",
+                "Update Rate": "Up to 2 Hz",
+                "Mass": "15 gms",
+                "Radiation Tolerance": "24 krad",
+                "Supply Voltage": "3.3 V",
+                "Power Consumption": "174 mW (Peak power)",
+                "Interface": "CAN, UART, RS-485, I2C"
+            }
+        },
+        {
+            "title": "Analog Fine Sun Sensor for Telecom & Scientific Satellites",
+            "link": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "image": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "organization": "Jena-Optronik GmbH",
+            "sku": "SKU:FSS",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "0.15 Degee",
+                "Sun Field of View": "128 Degree",
+                "Mass": "650 g",
+                "Supply Voltage": "13 to 15 V",
+                "Power Consumption": "200 mW"
+            }
+        },
+        {
+            "title": "Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector",
+            "link": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "image": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "organization": "Leonardo",
+            "sku": "SKU:S3",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor, Digital Sun Sensor",
+                "Accuracy": "\u00b10.02 Degree",
+                "Sun Field of View": "128 x 128 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "330 g",
+                "Radiation Tolerance": "100 to 300 krad",
+                "Supply Voltage": "5 to 50 V",
+                "Power Consumption": "700 mW to 1 W",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "Fine Pointing High Accuracy Attitude Determination Sun Sensor",
+            "link": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "image": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "organization": "Redwire Space",
+            "sku": "SKU:Fine Pointing Sun Sensor",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b10.002 to 0.005 Degree",
+                "Sun Field of View": "4.25 x 4.25 Degree",
+                "Mass": "2030 g",
+                "Radiation Tolerance": "100 krad",
+                "Supply Voltage": "28 \u00b17 V",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "45 Degree Solar Sun Sensor from 6 to 36 V",
+            "link": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "image": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "organization": "SPUTNIX",
+            "sku": "SKU:SX-SBOX-SUNS-01",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.15 Degree",
+                "Sun Field of View": "45 Degree(line of sight)",
+                "Mass": "45 g",
+                "Supply Voltage": "6 to 36 V",
+                "Power Consumption": "0.4 W",
+                "Space Heritage": "Yes",
+                "Interface": "CAN"
+            }
+        },
+        {
+            "title": "Digital Sun Sensor for SmallSats",
+            "link": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "image": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "organization": "AAC Clyde Space",
+            "sku": "SKU:SSOC-D60",
+            "details": {
+                "Satellite Type": "SmallSat, NanoSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.3 Degree (3-sigma)",
+                "Sun Field of View": "\u00b160 Degree",
+                "Mass": "35 g",
+                "Radiation Tolerance": "100 krad (gamma)",
+                "Supply Voltage": "5 V",
+                "Interface": "UART, I2C, SPI, RS-422"
+            }
+        },
+        {
+            "title": "An Analogue Quadrant Detector Fine Sun Sensor (FSS)",
+            "link": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "image": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "organization": "Bradford Space",
+            "sku": "SKU:Fine Sun Sensor (FSS)",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.3 Degree",
+                "Sun Field of View": "128 x 128 Degree(Nominal FOV), 138 x 138 Degree(Unobstructed FOV (To Be Free Of Straylight Sources)",
+                "Mass": "375 g",
+                "Radiation Tolerance": "10 krad",
+                "Supply Voltage": "0 to 5 V",
+                "Power Consumption": "0.25 W",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Sun Sensor for LEO & GEO Orbits",
+            "link": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "image": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "organization": "SITAEL",
+            "sku": "SKU:SITAEL Sun",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.5 Degree",
+                "Sun Field of View": "140 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "240 g",
+                "Supply Voltage": "12 to 50 V",
+                "Power Consumption": "50 mW",
+                "Interface": "RS-422, CAN, SPI"
+            }
+        },
+        {
+            "title": "Antrix Corporation Limited - 4pi sun sensors",
+            "link": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "image": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "organization": "Antrix Corporation Limited",
+            "sku": "Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b15 Degree",
+                "Mass": "50 g",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Three Analogue Fine Sun Sensors up to 114\u00b0 FOV",
+            "link": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "image": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "organization": "Berlin Space Technologies",
+            "sku": "SKU:FSSA-110",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b15 Degree",
+                "Sun Field of View": "Up to 114 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "With 3x Sensors: 102 gms, \u00b15 gms, Without Sensors: 87 g \u00b15 g",
+                "Radiation Tolerance": "20 krad",
+                "Supply Voltage": "5 V",
+                "Power Consumption": "185 mW",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "CubeSpace Satellite Systems - CubeSense Sun GEN 2",
+            "link": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "image": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "organization": "CubeSpace Satellite Systems",
+            "sku": "Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Accuracy": "0.2 Degree",
+                "Sun Field of View": "166 to 176 Degree",
+                "Update Rate": "Up to 2 Hz",
+                "Mass": "15 gms",
+                "Radiation Tolerance": "24 krad",
+                "Supply Voltage": "3.3 V",
+                "Power Consumption": "174 mW (Peak power)",
+                "Interface": "CAN, UART, RS-485, I2C"
+            }
+        },
+        {
+            "title": "Analog Fine Sun Sensor for Telecom & Scientific Satellites",
+            "link": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "image": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "organization": "Jena-Optronik GmbH",
+            "sku": "SKU:FSS",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "0.15 Degee",
+                "Sun Field of View": "128 Degree",
+                "Mass": "650 g",
+                "Supply Voltage": "13 to 15 V",
+                "Power Consumption": "200 mW"
+            }
+        },
+        {
+            "title": "Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector",
+            "link": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "image": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "organization": "Leonardo",
+            "sku": "SKU:S3",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor, Digital Sun Sensor",
+                "Accuracy": "\u00b10.02 Degree",
+                "Sun Field of View": "128 x 128 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "330 g",
+                "Radiation Tolerance": "100 to 300 krad",
+                "Supply Voltage": "5 to 50 V",
+                "Power Consumption": "700 mW to 1 W",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "Fine Pointing High Accuracy Attitude Determination Sun Sensor",
+            "link": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "image": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "organization": "Redwire Space",
+            "sku": "SKU:Fine Pointing Sun Sensor",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b10.002 to 0.005 Degree",
+                "Sun Field of View": "4.25 x 4.25 Degree",
+                "Mass": "2030 g",
+                "Radiation Tolerance": "100 krad",
+                "Supply Voltage": "28 \u00b17 V",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "45 Degree Solar Sun Sensor from 6 to 36 V",
+            "link": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "image": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "organization": "SPUTNIX",
+            "sku": "SKU:SX-SBOX-SUNS-01",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.15 Degree",
+                "Sun Field of View": "45 Degree(line of sight)",
+                "Mass": "45 g",
+                "Supply Voltage": "6 to 36 V",
+                "Power Consumption": "0.4 W",
+                "Space Heritage": "Yes",
+                "Interface": "CAN"
+            }
+        },
+        {
+            "title": "Digital Sun Sensor for SmallSats",
+            "link": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "image": "https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60",
+            "organization": "AAC Clyde Space",
+            "sku": "SKU:SSOC-D60",
+            "details": {
+                "Satellite Type": "SmallSat, NanoSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.3 Degree (3-sigma)",
+                "Sun Field of View": "\u00b160 Degree",
+                "Mass": "35 g",
+                "Radiation Tolerance": "100 krad (gamma)",
+                "Supply Voltage": "5 V",
+                "Interface": "UART, I2C, SPI, RS-422"
+            }
+        },
+        {
+            "title": "An Analogue Quadrant Detector Fine Sun Sensor (FSS)",
+            "link": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "image": "https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-",
+            "organization": "Bradford Space",
+            "sku": "SKU:Fine Sun Sensor (FSS)",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.3 Degree",
+                "Sun Field of View": "128 x 128 Degree(Nominal FOV), 138 x 138 Degree(Unobstructed FOV (To Be Free Of Straylight Sources)",
+                "Mass": "375 g",
+                "Radiation Tolerance": "10 krad",
+                "Supply Voltage": "0 to 5 V",
+                "Power Consumption": "0.25 W",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Sun Sensor for LEO & GEO Orbits",
+            "link": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "image": "https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun",
+            "organization": "SITAEL",
+            "sku": "SKU:SITAEL Sun",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Digital Sun Sensor",
+                "Accuracy": "0.5 Degree",
+                "Sun Field of View": "140 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "240 g",
+                "Supply Voltage": "12 to 50 V",
+                "Power Consumption": "50 mW",
+                "Interface": "RS-422, CAN, SPI"
+            }
+        },
+        {
+            "title": "Antrix Corporation Limited - 4pi sun sensors",
+            "link": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "image": "https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors",
+            "organization": "Antrix Corporation Limited",
+            "sku": "Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b15 Degree",
+                "Mass": "50 g",
+                "Space Heritage": "Yes"
+            }
+        },
+        {
+            "title": "Three Analogue Fine Sun Sensors up to 114\u00b0 FOV",
+            "link": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "image": "https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110",
+            "organization": "Berlin Space Technologies",
+            "sku": "SKU:FSSA-110",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b15 Degree",
+                "Sun Field of View": "Up to 114 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "With 3x Sensors: 102 gms, \u00b15 gms, Without Sensors: 87 g \u00b15 g",
+                "Radiation Tolerance": "20 krad",
+                "Supply Voltage": "5 V",
+                "Power Consumption": "185 mW",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "CubeSpace Satellite Systems - CubeSense Sun GEN 2",
+            "link": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "image": "https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2",
+            "organization": "CubeSpace Satellite Systems",
+            "sku": "Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption",
+            "details": {
+                "Satellite Type": "CubeSat",
+                "Segment": "Space",
+                "Accuracy": "0.2 Degree",
+                "Sun Field of View": "166 to 176 Degree",
+                "Update Rate": "Up to 2 Hz",
+                "Mass": "15 gms",
+                "Radiation Tolerance": "24 krad",
+                "Supply Voltage": "3.3 V",
+                "Power Consumption": "174 mW (Peak power)",
+                "Interface": "CAN, UART, RS-485, I2C"
+            }
+        },
+        {
+            "title": "Analog Fine Sun Sensor for Telecom & Scientific Satellites",
+            "link": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "image": "https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss",
+            "organization": "Jena-Optronik GmbH",
+            "sku": "SKU:FSS",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "0.15 Degee",
+                "Sun Field of View": "128 Degree",
+                "Mass": "650 g",
+                "Supply Voltage": "13 to 15 V",
+                "Power Consumption": "200 mW"
+            }
+        },
+        {
+            "title": "Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector",
+            "link": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "image": "https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3",
+            "organization": "Leonardo",
+            "sku": "SKU:S3",
+            "details": {
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor, Digital Sun Sensor",
+                "Accuracy": "\u00b10.02 Degree",
+                "Sun Field of View": "128 x 128 Degree",
+                "Update Rate": "10 Hz",
+                "Mass": "330 g",
+                "Radiation Tolerance": "100 to 300 krad",
+                "Supply Voltage": "5 to 50 V",
+                "Power Consumption": "700 mW to 1 W",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "Fine Pointing High Accuracy Attitude Determination Sun Sensor",
+            "link": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "image": "https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor",
+            "organization": "Redwire Space",
+            "sku": "SKU:Fine Pointing Sun Sensor",
+            "details": {
+                "Segment": "Space",
+                "Accuracy": "\u00b10.002 to 0.005 Degree",
+                "Sun Field of View": "4.25 x 4.25 Degree",
+                "Mass": "2030 g",
+                "Radiation Tolerance": "100 krad",
+                "Supply Voltage": "28 \u00b17 V",
+                "Space Heritage": "Yes",
+                "Interface": "RS-422"
+            }
+        },
+        {
+            "title": "45 Degree Solar Sun Sensor from 6 to 36 V",
+            "link": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "image": "https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01",
+            "organization": "SPUTNIX",
+            "sku": "SKU:SX-SBOX-SUNS-01",
+            "details": {
+                "Satellite Type": "SmallSat",
+                "Segment": "Space",
+                "Type": "Analog Sun Sensor",
+                "Accuracy": "\u00b10.15 Degree",
+                "Sun Field of View": "45 Degree(line of sight)",
+                "Mass": "45 g",
+                "Supply Voltage": "6 to 36 V",
+                "Power Consumption": "0.4 W",
+                "Space Heritage": "Yes",
+                "Interface": "CAN"
+            }
+        }
+    ]
+}
