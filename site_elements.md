@@ -1,0 +1,5 @@
+- ITEM: col-xl-8 col-lg-8 col-md-7 col-sm-8 centerLeft
+- TITLE: h3.prod-title > a
+- ORGANIZATON: .moreinfo > a.cur
+- SKU: .descriptiontext > TEXT
+- DETAILS: .specs > .data-row > (.attribute + .value)
