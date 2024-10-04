@@ -4,3 +4,5 @@
 - ORGANIZATON: .moreinfo > a.cur
 - SKU: .descriptiontext > TEXT
 - DETAILS: .specs > .data-row > (.attribute + .value)
+- PAGINATION: ul#pagingDiv 
+- PAGINATION NUMBER BUTTON: ul#pagingDiv > li.page-item > a.page-link
