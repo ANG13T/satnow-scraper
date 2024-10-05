@@ -4,11 +4,11 @@ from rich.text import Text
 
 console = Console()
 
-# Each menu item should allow for two operations (print or download)
+# Scan should soley print and download should present options (entire [breakdown process] + subsystem + specific item) 
 menu_items = [
-    ("1.", "SCAN CATALOG"),
-    ("2.", "SCAN SUBSYSTEM"),
-    ("3.", "SCAN COMPONENT"),
+    ("1.", "SCAN SUBSYSTEM CATALOG"),
+    ("2.", "SCAN COMPONENT"),
+    ("3.", "DOWNLOAD"),
     ("4.", "EXIT"),
 ]
 

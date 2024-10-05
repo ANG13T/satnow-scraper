@@ -1,6 +1,4 @@
 #### TODO
-- print everything out (make more tabular + organized + colored)
-- make select option
 
 OPTIONS:
 - download entire catalog
@@ -12,5 +10,5 @@ INFORMATIONAL:
 - README: SatNow site scraper for satellite component OSINT (graphic and screen recording)
 
 TODO:
-- make menu
 - make each page
+- download csv and txt
