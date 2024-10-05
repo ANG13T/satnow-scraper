@@ -30,7 +30,7 @@ def scrape_page(url):
             # SKU: .descriptiontext > TEXT (get text inside descriptiontext class)
             sku_tag = item.select_one('.descriptiontext')
             if sku_tag:
-                item_data['sku'] = sku_tag.get_text(strip=True)
+                item_data['sku'] = sku_tag.get_text(strip=True)[4:]
 
             # DETAILS: .specs > .data-row > (.attribute + .value) (loop over data-row items to extract attribute-value pairs)
             details = {}

@@ -20,12 +20,17 @@ def scrape_page(url):
                 item_data['title'] = title_tag.get_text(strip=True)
 
                 # LINK: h3.prod-title > a.href (get the href attribute of the link)
-                item_data['link'] = title_tag['href']
 
             # IMAGE: a.imagelink (get the image link)
-            img_tag = item.select_one('a.imagelink')
+            img_tag = item.select_one('img.componentImg')
             if img_tag:
-                item_data['image'] = img_tag['href']  # Assuming the image URL is in the 'href' attribute
+                item_data['image'] = img_tag['src']  # Assuming the image URL is in the 'href' attribute
+            
+            # LINK: a.imagelink
+            link_tag = item.select_one('a.imagelink')
+
+            if link_tag:
+                item_data['link'] = link_tag['href']
 
             # ORGANIZATION: .moreinfo > a.cur (get the organization link's text)
             org_tag = item.select_one('.moreinfo > a.cur')
@@ -35,7 +40,7 @@ def scrape_page(url):
             # SKU: .descriptiontext > TEXT (get text inside descriptiontext class)
             sku_tag = item.select_one('.descriptiontext')
             if sku_tag:
-                item_data['sku'] = sku_tag.get_text(strip=True)
+                item_data['sku'] = sku_tag.get_text(strip=True)[4:]
 
             # DETAILS: .specs > .data-row > (.attribute + .value) (loop over data-row items to extract attribute-value pairs)
             details = {}

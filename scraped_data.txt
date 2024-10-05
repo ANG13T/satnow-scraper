@@ -1,8 +1,8 @@
 ==============================================================
 NAME: Digital Sun Sensor for SmallSats
 ORGANIZATION: AAC Clyde Space
-SKU: SKU:SSOC-D60
-IMAGE: https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60
+SKU: SSOC-D60
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat, NanoSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -15,8 +15,8 @@ INTERFACE: UART, I2C, SPI, RS-422
 ==============================================================
 NAME: An Analogue Quadrant Detector Fine Sun Sensor (FSS)
 ORGANIZATION: Bradford Space
-SKU: SKU:Fine Sun Sensor (FSS)
-IMAGE: https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-
+SKU: Fine Sun Sensor (FSS)
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -30,8 +30,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Sun Sensor for LEO & GEO Orbits
 ORGANIZATION: SITAEL
-SKU: SKU:SITAEL Sun
-IMAGE: https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun
+SKU: SITAEL Sun
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -45,8 +45,8 @@ INTERFACE: RS-422, CAN, SPI
 ==============================================================
 NAME: Antrix Corporation Limited - 4pi sun sensors
 ORGANIZATION: Antrix Corporation Limited
-SKU: Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
-IMAGE: https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors
+SKU: ription:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±5 Degree
 MASS: 50 g
@@ -54,8 +54,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Three Analogue Fine Sun Sensors up to 114° FOV
 ORGANIZATION: Berlin Space Technologies
-SKU: SKU:FSSA-110
-IMAGE: https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110
+SKU: FSSA-110
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor
 ACCURACY: ±5 Degree
@@ -70,8 +70,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: CubeSpace Satellite Systems - CubeSense Sun GEN 2
 ORGANIZATION: CubeSpace Satellite Systems
-SKU: Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption
-IMAGE: https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2
+SKU: ription:A CMOS-based fine sun sensor with a wide field of view & low power consumption
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 ACCURACY: 0.2 Degree
@@ -85,8 +85,8 @@ INTERFACE: CAN, UART, RS-485, I2C
 ==============================================================
 NAME: Analog Fine Sun Sensor for Telecom & Scientific Satellites
 ORGANIZATION: Jena-Optronik GmbH
-SKU: SKU:FSS
-IMAGE: https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss
+SKU: FSS
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: 0.15 Degee
 SUN FIELD OF VIEW: 128 Degree
@@ -96,8 +96,8 @@ POWER CONSUMPTION: 200 mW
 ==============================================================
 NAME: Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector
 ORGANIZATION: Leonardo
-SKU: SKU:S3
-IMAGE: https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3
+SKU: S3
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor, Digital Sun Sensor
 ACCURACY: ±0.02 Degree
@@ -112,8 +112,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: Fine Pointing High Accuracy Attitude Determination Sun Sensor
 ORGANIZATION: Redwire Space
-SKU: SKU:Fine Pointing Sun Sensor
-IMAGE: https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor
+SKU: Fine Pointing Sun Sensor
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±0.002 to 0.005 Degree
 SUN FIELD OF VIEW: 4.25 x 4.25 Degree
@@ -125,8 +125,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: 45 Degree Solar Sun Sensor from 6 to 36 V
 ORGANIZATION: SPUTNIX
-SKU: SKU:SX-SBOX-SUNS-01
-IMAGE: https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01
+SKU: SX-SBOX-SUNS-01
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -140,8 +140,8 @@ INTERFACE: CAN
 ==============================================================
 NAME: Digital Sun Sensor for SmallSats
 ORGANIZATION: AAC Clyde Space
-SKU: SKU:SSOC-D60
-IMAGE: https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60
+SKU: SSOC-D60
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat, NanoSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -154,8 +154,8 @@ INTERFACE: UART, I2C, SPI, RS-422
 ==============================================================
 NAME: An Analogue Quadrant Detector Fine Sun Sensor (FSS)
 ORGANIZATION: Bradford Space
-SKU: SKU:Fine Sun Sensor (FSS)
-IMAGE: https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-
+SKU: Fine Sun Sensor (FSS)
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -169,8 +169,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Sun Sensor for LEO & GEO Orbits
 ORGANIZATION: SITAEL
-SKU: SKU:SITAEL Sun
-IMAGE: https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun
+SKU: SITAEL Sun
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -184,8 +184,8 @@ INTERFACE: RS-422, CAN, SPI
 ==============================================================
 NAME: Antrix Corporation Limited - 4pi sun sensors
 ORGANIZATION: Antrix Corporation Limited
-SKU: Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
-IMAGE: https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors
+SKU: ription:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±5 Degree
 MASS: 50 g
@@ -193,8 +193,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Three Analogue Fine Sun Sensors up to 114° FOV
 ORGANIZATION: Berlin Space Technologies
-SKU: SKU:FSSA-110
-IMAGE: https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110
+SKU: FSSA-110
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor
 ACCURACY: ±5 Degree
@@ -209,8 +209,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: CubeSpace Satellite Systems - CubeSense Sun GEN 2
 ORGANIZATION: CubeSpace Satellite Systems
-SKU: Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption
-IMAGE: https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2
+SKU: ription:A CMOS-based fine sun sensor with a wide field of view & low power consumption
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 ACCURACY: 0.2 Degree
@@ -224,8 +224,8 @@ INTERFACE: CAN, UART, RS-485, I2C
 ==============================================================
 NAME: Analog Fine Sun Sensor for Telecom & Scientific Satellites
 ORGANIZATION: Jena-Optronik GmbH
-SKU: SKU:FSS
-IMAGE: https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss
+SKU: FSS
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: 0.15 Degee
 SUN FIELD OF VIEW: 128 Degree
@@ -235,8 +235,8 @@ POWER CONSUMPTION: 200 mW
 ==============================================================
 NAME: Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector
 ORGANIZATION: Leonardo
-SKU: SKU:S3
-IMAGE: https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3
+SKU: S3
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor, Digital Sun Sensor
 ACCURACY: ±0.02 Degree
@@ -251,8 +251,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: Fine Pointing High Accuracy Attitude Determination Sun Sensor
 ORGANIZATION: Redwire Space
-SKU: SKU:Fine Pointing Sun Sensor
-IMAGE: https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor
+SKU: Fine Pointing Sun Sensor
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±0.002 to 0.005 Degree
 SUN FIELD OF VIEW: 4.25 x 4.25 Degree
@@ -264,8 +264,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: 45 Degree Solar Sun Sensor from 6 to 36 V
 ORGANIZATION: SPUTNIX
-SKU: SKU:SX-SBOX-SUNS-01
-IMAGE: https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01
+SKU: SX-SBOX-SUNS-01
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -279,8 +279,8 @@ INTERFACE: CAN
 ==============================================================
 NAME: Digital Sun Sensor for SmallSats
 ORGANIZATION: AAC Clyde Space
-SKU: SKU:SSOC-D60
-IMAGE: https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60
+SKU: SSOC-D60
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat, NanoSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -293,8 +293,8 @@ INTERFACE: UART, I2C, SPI, RS-422
 ==============================================================
 NAME: An Analogue Quadrant Detector Fine Sun Sensor (FSS)
 ORGANIZATION: Bradford Space
-SKU: SKU:Fine Sun Sensor (FSS)
-IMAGE: https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-
+SKU: Fine Sun Sensor (FSS)
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -308,8 +308,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Sun Sensor for LEO & GEO Orbits
 ORGANIZATION: SITAEL
-SKU: SKU:SITAEL Sun
-IMAGE: https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun
+SKU: SITAEL Sun
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -323,8 +323,8 @@ INTERFACE: RS-422, CAN, SPI
 ==============================================================
 NAME: Antrix Corporation Limited - 4pi sun sensors
 ORGANIZATION: Antrix Corporation Limited
-SKU: Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
-IMAGE: https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors
+SKU: ription:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±5 Degree
 MASS: 50 g
@@ -332,8 +332,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Three Analogue Fine Sun Sensors up to 114° FOV
 ORGANIZATION: Berlin Space Technologies
-SKU: SKU:FSSA-110
-IMAGE: https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110
+SKU: FSSA-110
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor
 ACCURACY: ±5 Degree
@@ -348,8 +348,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: CubeSpace Satellite Systems - CubeSense Sun GEN 2
 ORGANIZATION: CubeSpace Satellite Systems
-SKU: Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption
-IMAGE: https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2
+SKU: ription:A CMOS-based fine sun sensor with a wide field of view & low power consumption
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 ACCURACY: 0.2 Degree
@@ -363,8 +363,8 @@ INTERFACE: CAN, UART, RS-485, I2C
 ==============================================================
 NAME: Analog Fine Sun Sensor for Telecom & Scientific Satellites
 ORGANIZATION: Jena-Optronik GmbH
-SKU: SKU:FSS
-IMAGE: https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss
+SKU: FSS
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: 0.15 Degee
 SUN FIELD OF VIEW: 128 Degree
@@ -374,8 +374,8 @@ POWER CONSUMPTION: 200 mW
 ==============================================================
 NAME: Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector
 ORGANIZATION: Leonardo
-SKU: SKU:S3
-IMAGE: https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3
+SKU: S3
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor, Digital Sun Sensor
 ACCURACY: ±0.02 Degree
@@ -390,8 +390,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: Fine Pointing High Accuracy Attitude Determination Sun Sensor
 ORGANIZATION: Redwire Space
-SKU: SKU:Fine Pointing Sun Sensor
-IMAGE: https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor
+SKU: Fine Pointing Sun Sensor
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±0.002 to 0.005 Degree
 SUN FIELD OF VIEW: 4.25 x 4.25 Degree
@@ -403,8 +403,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: 45 Degree Solar Sun Sensor from 6 to 36 V
 ORGANIZATION: SPUTNIX
-SKU: SKU:SX-SBOX-SUNS-01
-IMAGE: https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01
+SKU: SX-SBOX-SUNS-01
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -418,8 +418,8 @@ INTERFACE: CAN
 ==============================================================
 NAME: Digital Sun Sensor for SmallSats
 ORGANIZATION: AAC Clyde Space
-SKU: SKU:SSOC-D60
-IMAGE: https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60
+SKU: SSOC-D60
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat, NanoSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -432,8 +432,8 @@ INTERFACE: UART, I2C, SPI, RS-422
 ==============================================================
 NAME: An Analogue Quadrant Detector Fine Sun Sensor (FSS)
 ORGANIZATION: Bradford Space
-SKU: SKU:Fine Sun Sensor (FSS)
-IMAGE: https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-
+SKU: Fine Sun Sensor (FSS)
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -447,8 +447,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Sun Sensor for LEO & GEO Orbits
 ORGANIZATION: SITAEL
-SKU: SKU:SITAEL Sun
-IMAGE: https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun
+SKU: SITAEL Sun
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -462,8 +462,8 @@ INTERFACE: RS-422, CAN, SPI
 ==============================================================
 NAME: Antrix Corporation Limited - 4pi sun sensors
 ORGANIZATION: Antrix Corporation Limited
-SKU: Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
-IMAGE: https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors
+SKU: ription:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±5 Degree
 MASS: 50 g
@@ -471,8 +471,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Three Analogue Fine Sun Sensors up to 114° FOV
 ORGANIZATION: Berlin Space Technologies
-SKU: SKU:FSSA-110
-IMAGE: https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110
+SKU: FSSA-110
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor
 ACCURACY: ±5 Degree
@@ -487,8 +487,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: CubeSpace Satellite Systems - CubeSense Sun GEN 2
 ORGANIZATION: CubeSpace Satellite Systems
-SKU: Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption
-IMAGE: https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2
+SKU: ription:A CMOS-based fine sun sensor with a wide field of view & low power consumption
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 ACCURACY: 0.2 Degree
@@ -502,8 +502,8 @@ INTERFACE: CAN, UART, RS-485, I2C
 ==============================================================
 NAME: Analog Fine Sun Sensor for Telecom & Scientific Satellites
 ORGANIZATION: Jena-Optronik GmbH
-SKU: SKU:FSS
-IMAGE: https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss
+SKU: FSS
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: 0.15 Degee
 SUN FIELD OF VIEW: 128 Degree
@@ -513,8 +513,8 @@ POWER CONSUMPTION: 200 mW
 ==============================================================
 NAME: Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector
 ORGANIZATION: Leonardo
-SKU: SKU:S3
-IMAGE: https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3
+SKU: S3
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor, Digital Sun Sensor
 ACCURACY: ±0.02 Degree
@@ -529,8 +529,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: Fine Pointing High Accuracy Attitude Determination Sun Sensor
 ORGANIZATION: Redwire Space
-SKU: SKU:Fine Pointing Sun Sensor
-IMAGE: https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor
+SKU: Fine Pointing Sun Sensor
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±0.002 to 0.005 Degree
 SUN FIELD OF VIEW: 4.25 x 4.25 Degree
@@ -542,8 +542,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: 45 Degree Solar Sun Sensor from 6 to 36 V
 ORGANIZATION: SPUTNIX
-SKU: SKU:SX-SBOX-SUNS-01
-IMAGE: https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01
+SKU: SX-SBOX-SUNS-01
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -557,8 +557,8 @@ INTERFACE: CAN
 ==============================================================
 NAME: Digital Sun Sensor for SmallSats
 ORGANIZATION: AAC Clyde Space
-SKU: SKU:SSOC-D60
-IMAGE: https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60
+SKU: SSOC-D60
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat, NanoSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -571,8 +571,8 @@ INTERFACE: UART, I2C, SPI, RS-422
 ==============================================================
 NAME: An Analogue Quadrant Detector Fine Sun Sensor (FSS)
 ORGANIZATION: Bradford Space
-SKU: SKU:Fine Sun Sensor (FSS)
-IMAGE: https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-
+SKU: Fine Sun Sensor (FSS)
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -586,8 +586,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Sun Sensor for LEO & GEO Orbits
 ORGANIZATION: SITAEL
-SKU: SKU:SITAEL Sun
-IMAGE: https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun
+SKU: SITAEL Sun
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -601,8 +601,8 @@ INTERFACE: RS-422, CAN, SPI
 ==============================================================
 NAME: Antrix Corporation Limited - 4pi sun sensors
 ORGANIZATION: Antrix Corporation Limited
-SKU: Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
-IMAGE: https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors
+SKU: ription:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±5 Degree
 MASS: 50 g
@@ -610,8 +610,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Three Analogue Fine Sun Sensors up to 114° FOV
 ORGANIZATION: Berlin Space Technologies
-SKU: SKU:FSSA-110
-IMAGE: https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110
+SKU: FSSA-110
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor
 ACCURACY: ±5 Degree
@@ -626,8 +626,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: CubeSpace Satellite Systems - CubeSense Sun GEN 2
 ORGANIZATION: CubeSpace Satellite Systems
-SKU: Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption
-IMAGE: https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2
+SKU: ription:A CMOS-based fine sun sensor with a wide field of view & low power consumption
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 ACCURACY: 0.2 Degree
@@ -641,8 +641,8 @@ INTERFACE: CAN, UART, RS-485, I2C
 ==============================================================
 NAME: Analog Fine Sun Sensor for Telecom & Scientific Satellites
 ORGANIZATION: Jena-Optronik GmbH
-SKU: SKU:FSS
-IMAGE: https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss
+SKU: FSS
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: 0.15 Degee
 SUN FIELD OF VIEW: 128 Degree
@@ -652,8 +652,8 @@ POWER CONSUMPTION: 200 mW
 ==============================================================
 NAME: Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector
 ORGANIZATION: Leonardo
-SKU: SKU:S3
-IMAGE: https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3
+SKU: S3
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor, Digital Sun Sensor
 ACCURACY: ±0.02 Degree
@@ -668,8 +668,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: Fine Pointing High Accuracy Attitude Determination Sun Sensor
 ORGANIZATION: Redwire Space
-SKU: SKU:Fine Pointing Sun Sensor
-IMAGE: https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor
+SKU: Fine Pointing Sun Sensor
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±0.002 to 0.005 Degree
 SUN FIELD OF VIEW: 4.25 x 4.25 Degree
@@ -681,8 +681,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: 45 Degree Solar Sun Sensor from 6 to 36 V
 ORGANIZATION: SPUTNIX
-SKU: SKU:SX-SBOX-SUNS-01
-IMAGE: https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01
+SKU: SX-SBOX-SUNS-01
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -696,8 +696,8 @@ INTERFACE: CAN
 ==============================================================
 NAME: Digital Sun Sensor for SmallSats
 ORGANIZATION: AAC Clyde Space
-SKU: SKU:SSOC-D60
-IMAGE: https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60
+SKU: SSOC-D60
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat, NanoSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -710,8 +710,8 @@ INTERFACE: UART, I2C, SPI, RS-422
 ==============================================================
 NAME: An Analogue Quadrant Detector Fine Sun Sensor (FSS)
 ORGANIZATION: Bradford Space
-SKU: SKU:Fine Sun Sensor (FSS)
-IMAGE: https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-
+SKU: Fine Sun Sensor (FSS)
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -725,8 +725,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Sun Sensor for LEO & GEO Orbits
 ORGANIZATION: SITAEL
-SKU: SKU:SITAEL Sun
-IMAGE: https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun
+SKU: SITAEL Sun
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -740,8 +740,8 @@ INTERFACE: RS-422, CAN, SPI
 ==============================================================
 NAME: Antrix Corporation Limited - 4pi sun sensors
 ORGANIZATION: Antrix Corporation Limited
-SKU: Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
-IMAGE: https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors
+SKU: ription:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±5 Degree
 MASS: 50 g
@@ -749,8 +749,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Three Analogue Fine Sun Sensors up to 114° FOV
 ORGANIZATION: Berlin Space Technologies
-SKU: SKU:FSSA-110
-IMAGE: https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110
+SKU: FSSA-110
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor
 ACCURACY: ±5 Degree
@@ -765,8 +765,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: CubeSpace Satellite Systems - CubeSense Sun GEN 2
 ORGANIZATION: CubeSpace Satellite Systems
-SKU: Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption
-IMAGE: https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2
+SKU: ription:A CMOS-based fine sun sensor with a wide field of view & low power consumption
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 ACCURACY: 0.2 Degree
@@ -780,8 +780,8 @@ INTERFACE: CAN, UART, RS-485, I2C
 ==============================================================
 NAME: Analog Fine Sun Sensor for Telecom & Scientific Satellites
 ORGANIZATION: Jena-Optronik GmbH
-SKU: SKU:FSS
-IMAGE: https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss
+SKU: FSS
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: 0.15 Degee
 SUN FIELD OF VIEW: 128 Degree
@@ -791,8 +791,8 @@ POWER CONSUMPTION: 200 mW
 ==============================================================
 NAME: Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector
 ORGANIZATION: Leonardo
-SKU: SKU:S3
-IMAGE: https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3
+SKU: S3
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor, Digital Sun Sensor
 ACCURACY: ±0.02 Degree
@@ -807,8 +807,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: Fine Pointing High Accuracy Attitude Determination Sun Sensor
 ORGANIZATION: Redwire Space
-SKU: SKU:Fine Pointing Sun Sensor
-IMAGE: https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor
+SKU: Fine Pointing Sun Sensor
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±0.002 to 0.005 Degree
 SUN FIELD OF VIEW: 4.25 x 4.25 Degree
@@ -820,8 +820,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: 45 Degree Solar Sun Sensor from 6 to 36 V
 ORGANIZATION: SPUTNIX
-SKU: SKU:SX-SBOX-SUNS-01
-IMAGE: https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01
+SKU: SX-SBOX-SUNS-01
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -835,8 +835,8 @@ INTERFACE: CAN
 ==============================================================
 NAME: Digital Sun Sensor for SmallSats
 ORGANIZATION: AAC Clyde Space
-SKU: SKU:SSOC-D60
-IMAGE: https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60
+SKU: SSOC-D60
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat, NanoSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -849,8 +849,8 @@ INTERFACE: UART, I2C, SPI, RS-422
 ==============================================================
 NAME: An Analogue Quadrant Detector Fine Sun Sensor (FSS)
 ORGANIZATION: Bradford Space
-SKU: SKU:Fine Sun Sensor (FSS)
-IMAGE: https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-
+SKU: Fine Sun Sensor (FSS)
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -864,8 +864,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Sun Sensor for LEO & GEO Orbits
 ORGANIZATION: SITAEL
-SKU: SKU:SITAEL Sun
-IMAGE: https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun
+SKU: SITAEL Sun
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -879,8 +879,8 @@ INTERFACE: RS-422, CAN, SPI
 ==============================================================
 NAME: Antrix Corporation Limited - 4pi sun sensors
 ORGANIZATION: Antrix Corporation Limited
-SKU: Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
-IMAGE: https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors
+SKU: ription:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±5 Degree
 MASS: 50 g
@@ -888,8 +888,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Three Analogue Fine Sun Sensors up to 114° FOV
 ORGANIZATION: Berlin Space Technologies
-SKU: SKU:FSSA-110
-IMAGE: https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110
+SKU: FSSA-110
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor
 ACCURACY: ±5 Degree
@@ -904,8 +904,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: CubeSpace Satellite Systems - CubeSense Sun GEN 2
 ORGANIZATION: CubeSpace Satellite Systems
-SKU: Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption
-IMAGE: https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2
+SKU: ription:A CMOS-based fine sun sensor with a wide field of view & low power consumption
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 ACCURACY: 0.2 Degree
@@ -919,8 +919,8 @@ INTERFACE: CAN, UART, RS-485, I2C
 ==============================================================
 NAME: Analog Fine Sun Sensor for Telecom & Scientific Satellites
 ORGANIZATION: Jena-Optronik GmbH
-SKU: SKU:FSS
-IMAGE: https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss
+SKU: FSS
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: 0.15 Degee
 SUN FIELD OF VIEW: 128 Degree
@@ -930,8 +930,8 @@ POWER CONSUMPTION: 200 mW
 ==============================================================
 NAME: Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector
 ORGANIZATION: Leonardo
-SKU: SKU:S3
-IMAGE: https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3
+SKU: S3
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor, Digital Sun Sensor
 ACCURACY: ±0.02 Degree
@@ -946,8 +946,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: Fine Pointing High Accuracy Attitude Determination Sun Sensor
 ORGANIZATION: Redwire Space
-SKU: SKU:Fine Pointing Sun Sensor
-IMAGE: https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor
+SKU: Fine Pointing Sun Sensor
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±0.002 to 0.005 Degree
 SUN FIELD OF VIEW: 4.25 x 4.25 Degree
@@ -959,8 +959,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: 45 Degree Solar Sun Sensor from 6 to 36 V
 ORGANIZATION: SPUTNIX
-SKU: SKU:SX-SBOX-SUNS-01
-IMAGE: https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01
+SKU: SX-SBOX-SUNS-01
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -974,8 +974,8 @@ INTERFACE: CAN
 ==============================================================
 NAME: Digital Sun Sensor for SmallSats
 ORGANIZATION: AAC Clyde Space
-SKU: SKU:SSOC-D60
-IMAGE: https://www.satnow.com/products/sun-sensors/aac-clyde-space/39-1154-ssoc-d60
+SKU: SSOC-D60
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat, NanoSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -988,8 +988,8 @@ INTERFACE: UART, I2C, SPI, RS-422
 ==============================================================
 NAME: An Analogue Quadrant Detector Fine Sun Sensor (FSS)
 ORGANIZATION: Bradford Space
-SKU: SKU:Fine Sun Sensor (FSS)
-IMAGE: https://www.satnow.com/products/sun-sensors/bradford-space/39-1159-fine-sun-sensor-fss-
+SKU: Fine Sun Sensor (FSS)
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
@@ -1003,8 +1003,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Sun Sensor for LEO & GEO Orbits
 ORGANIZATION: SITAEL
-SKU: SKU:SITAEL Sun
-IMAGE: https://www.satnow.com/products/sun-sensors/sitael/39-1160-sitael-sun
+SKU: SITAEL Sun
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Digital Sun Sensor
@@ -1018,8 +1018,8 @@ INTERFACE: RS-422, CAN, SPI
 ==============================================================
 NAME: Antrix Corporation Limited - 4pi sun sensors
 ORGANIZATION: Antrix Corporation Limited
-SKU: Description:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
-IMAGE: https://www.satnow.com/products/sun-sensors/antrix-corporation-limited/39-1183-4pi-sun-sensors
+SKU: ription:Indian Space Research Organisation (ISRO) is responsible for Design Development and production of electro-optic sensors and optics for spacecraft
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±5 Degree
 MASS: 50 g
@@ -1027,8 +1027,8 @@ SPACE HERITAGE: Yes
 ==============================================================
 NAME: Three Analogue Fine Sun Sensors up to 114° FOV
 ORGANIZATION: Berlin Space Technologies
-SKU: SKU:FSSA-110
-IMAGE: https://www.satnow.com/products/sun-sensors/berlin-space-technologies/39-1185-fssa-110
+SKU: FSSA-110
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor
 ACCURACY: ±5 Degree
@@ -1043,8 +1043,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: CubeSpace Satellite Systems - CubeSense Sun GEN 2
 ORGANIZATION: CubeSpace Satellite Systems
-SKU: Description:A CMOS-based fine sun sensor with a wide field of view & low power consumption
-IMAGE: https://www.satnow.com/products/sun-sensors/cubespace/39-1187-cubesense-sun-gen-2
+SKU: ription:A CMOS-based fine sun sensor with a wide field of view & low power consumption
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: CubeSat
 SEGMENT: Space
 ACCURACY: 0.2 Degree
@@ -1058,8 +1058,8 @@ INTERFACE: CAN, UART, RS-485, I2C
 ==============================================================
 NAME: Analog Fine Sun Sensor for Telecom & Scientific Satellites
 ORGANIZATION: Jena-Optronik GmbH
-SKU: SKU:FSS
-IMAGE: https://www.satnow.com/products/sun-sensors/jena-optronik-gmbh/39-1188-fss
+SKU: FSS
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: 0.15 Degee
 SUN FIELD OF VIEW: 128 Degree
@@ -1069,8 +1069,8 @@ POWER CONSUMPTION: 200 mW
 ==============================================================
 NAME: Two Axes Solar Sensor based on an Active Pixel Sensor (APS) Detector
 ORGANIZATION: Leonardo
-SKU: SKU:S3
-IMAGE: https://www.satnow.com/products/sun-sensors/leonardo/39-1190-s3
+SKU: S3
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 TYPE: Analog Sun Sensor, Digital Sun Sensor
 ACCURACY: ±0.02 Degree
@@ -1085,8 +1085,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: Fine Pointing High Accuracy Attitude Determination Sun Sensor
 ORGANIZATION: Redwire Space
-SKU: SKU:Fine Pointing Sun Sensor
-IMAGE: https://www.satnow.com/products/sun-sensors/redwire-space/39-1191-fine-pointing-sun-sensor
+SKU: Fine Pointing Sun Sensor
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SEGMENT: Space
 ACCURACY: ±0.002 to 0.005 Degree
 SUN FIELD OF VIEW: 4.25 x 4.25 Degree
@@ -1098,8 +1098,8 @@ INTERFACE: RS-422
 ==============================================================
 NAME: 45 Degree Solar Sun Sensor from 6 to 36 V
 ORGANIZATION: SPUTNIX
-SKU: SKU:SX-SBOX-SUNS-01
-IMAGE: https://www.satnow.com/products/sun-sensors/sputnix/39-1194-sx-sbox-suns-01
+SKU: SX-SBOX-SUNS-01
+IMAGE: https://cdn.satnow.com/images/gray_140.jpg
 SATELLITE TYPE: SmallSat
 SEGMENT: Space
 TYPE: Analog Sun Sensor
