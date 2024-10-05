@@ -1,0 +1,2 @@
+`ITEMS DISPLAY FOR SUBSYSTEM`: scrape_contents_all_numbers_visual_and_output_txt.py
+`SPECIFIC ITEM DETAILS`: 
