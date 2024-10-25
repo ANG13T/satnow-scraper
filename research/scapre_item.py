@@ -44,7 +44,7 @@ def scrape_page(url):
 
             # Extract Manufacturer Website Link
             manufacturer_website_link = None
-            manufacturer_link_section = general_parameters_section  # Adjust this based on your HTML structure
+            manufacturer_link_section = item.select_one(".manuwebsitelink-similar")  
             if manufacturer_link_section:
                 manufacturer_link = manufacturer_link_section.select_one('a')  # Adjust selector if necessary
                 if manufacturer_link and 'href' in manufacturer_link.attrs:
@@ -139,7 +139,6 @@ def save_to_txt(data, filename):
                 for key, value in item['general_parameters'].items():
                     f.write(f"{key}: {value}\n")
                 
-                f.write(f"Technical Document Datasheet URL: {item.get('technical_document_datasheet', 'N/A')}\n")
                 f.write(f"Manufacturer Website Link: {item.get('manufacturer_website_link', 'N/A')}\n")  # Added manufacturer link
                 f.write("=" * 62)
         print(f"Data successfully saved to {filename}")
@@ -156,7 +155,6 @@ def print_data(data):
         print("  GENERAL PARAMETERS:")
         for key, value in item['general_parameters'].items():
             print(f"    {key}: {value}")
-        print(f"  Technical Document Datasheet URL: {item.get('technical_document_datasheet', 'N/A')}")
         print(f"  Manufacturer Website Link: {item.get('manufacturer_website_link', 'N/A')}")  # Added manufacturer link
 
 if __name__ == "__main__":

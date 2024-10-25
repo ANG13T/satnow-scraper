@@ -1,0 +1,20 @@
+SEQUENCE
+
+TOOL MENU:
+1. SCAN SUBSYSTEM CATALOG
+2. SCAN COMPONENT
+3. VIEW SUBSYSTEMS
+4. DOWNLOAD
+5. EXIT
+
+1 - SCAN SUBSYSTEM CATALOG
+---> PROMPT FOR THE SUBSYSTEM
+---> PROMPT FOR THE SUB-SUB SUBSYSTEM
+
+2 - SCAN COMPONENT
+
+3 - VIEW SUBSYSTEMS (DONE)
+
+4 - DOWNLOAD
+---> Prompt for which level of downloading (Entire Catalog, Subsystem, Sub-Subsystem, Component)
+---> Prompt for Download Format (CSV, JSON, TXT)

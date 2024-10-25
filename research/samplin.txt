@@ -1,0 +1,40 @@
+{
+     'title': 'Atomic Clock for Satellite Timing and Frequency Control',
+     'link': 'https://www.satnow.com/products/atomic-clocks/microchip-technology/148-1082-090-02984-007',
+     'organization': 'Microchip Technology',
+     'sku': '090-02984-007',
+     'details':
+     {
+        'Space Standard:': 'MIL-STD-810G, MIL-STD-202-213A',
+        'Mass:': '35 g',
+        'Frequency Accuracy:': '±5 x 10-11, ±5 x 10-10',
+        'Frequency Stability:': '3 x 10-10, 1 x 10-10, 3 x 10-11, 1 x 10-11',
+        'Phase Noise:': '-140 to -50 dBc/Hz',
+        'Supply Voltage:': '3.3 V',
+        'Power Consumption:': '120 mW',
+        'Radiation:': '20 kRad',
+        'Interface:': 'RS-232',
+        'Operating Temperature:': '-10 to 70 Degree C',
+        'Application:': 'Satellite timing and frequency control, Satellite clock reference, Assured Position, Navigation and Timing (PNT), Atomic clock accuracy, Satellite cro...',
+        'Dimension:': '1.6 x 1.39 x 0.45 mm'
+     }
+}
+
+==================================================
+TITLE: Atomic Clock for Satellite Timing and Frequency Control
+LINK: https://www.satnow.com/products/atomic-clocks/microchip-technology/148-1082-090-02984-007
+ORGANIZATION: Microchip Technology
+SKU: 090-02984-007
+DETAILS:
+    Space Standard: MIL-STD-810G, MIL-STD-202-213A
+    Mass: 35 g
+    Frequency Accuracy: ±5 x 10-11, ±5 x 10-10
+    Frequency Stability: 3 x 10-10, 1 x 10-10, 3 x 10-11, 1 x 10-11
+    Phase Noise: -140 to -50 dBc/Hz
+    Supply Voltage: 3.3 V
+    Power Consumption: 120 mW
+    Radiation: 20 kRad
+    Interface: RS-232
+    Operating Temperature: -10 to 70 Degree C
+    Application: Satellite timing and frequency control, Satellite
+==================================================

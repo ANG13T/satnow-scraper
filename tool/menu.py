@@ -1,6 +1,8 @@
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
+from modules.display import display_subsystems
+from modules.download import display_download_prompt
 
 console = Console()
 
@@ -8,8 +10,9 @@ console = Console()
 menu_items = [
     ("1.", "SCAN SUBSYSTEM CATALOG"),
     ("2.", "SCAN COMPONENT"),
-    ("3.", "DOWNLOAD"),
-    ("4.", "EXIT"),
+    ("3.", "VIEW SUBSYSTEMS"),
+    ("4.", "DOWNLOAD"),
+    ("5.", "EXIT"),
 ]
 
 def print_banner():
@@ -26,6 +29,10 @@ def download_entire_catalog():
 def download_subsystem():
     subsystem_name = console.input("[cyan]Enter the subsystem name to download: [/cyan]")
     console.print(f"[bold green]Downloading subsystem: {subsystem_name}...[/bold green]")
+
+def view_subsystems():
+    console.print("[bold green]Viewing subsystems...[/bold green]")
+    display_subsystems()
 
 def download_item_specific_page():
     item_name = console.input("[cyan]Enter the item name to download: [/cyan]")
@@ -59,7 +66,7 @@ while True:
     console.print(menu_panel)
 
     # Get user input
-    choice = console.input("[cyan]Please select an option (1-4): [/cyan]")
+    choice = console.input("[cyan]Please select an option (1-5): [/cyan]")
     
     # Execute the corresponding action
     if choice == "1":
@@ -67,11 +74,13 @@ while True:
     elif choice == "2":
         download_subsystem()
     elif choice == "3":
-        download_item_specific_page()
+        display_subsystems()
     elif choice == "4":
+        display_download_prompt()
+    elif choice == "5":
         exit_program()
     else:
-        console.print("[bold red]Invalid option. Please choose a number between 1 and 4.[/bold red]")
+        console.print("[bold red]Invalid option. Please choose a number between 1 and 5.[/bold red]")
 
     # Add a pause after each operation
     console.input("[cyan]Press Enter to continue...[/cyan]")

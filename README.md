@@ -1,3 +1,6 @@
+## TODO
+-> showcase how people can grep for these components using the `grep` command in the terminal
+
 ## Satellite Products URL Route Tree
 
 #### Command & Data Handling Systems
@@ -130,6 +133,58 @@
 - Sun Sensors (https://www.satnow.com/search/sun-sensors)
 
 
+`ITEMS DISPLAY FOR SUBSYSTEM`: scrape_contents_all_numbers_visual_and_output_txt.py
+`SPECIFIC ITEM DETAILS`: 
+
+### CATALOG PAGE SCRAPE ELEMENTS
+- ITRM: product-box
+- TITLE: h3.prod-title > a
+- LINK: h3.prod-title > a.href
+- ORGANIZATON: .moreinfo > a.cur
+- SKU: .descriptiontext > TEXT
+- DETAILS: .specs > .data-row > (.attribute + .value)
+- PAGINATION: ul#pagingDiv 
+- PAGINATION NUMBER BUTTON: ul#pagingDiv > li.page-item > a.page-link
+- IMAGE: a.imagelink
 
 
+### SPECIFIC ITEM SCRAPE ELEMENTS 
+TITLE: `#ContentPlaceHolder1_lblPartDisplayName`
+SKU: `i.d-block detail > p > strong`
+ITEM TYPE: `span#ContentPlaceHolder1_lblNodeDisplayName`
+ORGANIZATION: `a#hlnkManuDisplayName`
+IMAGE: `img#ContentPlaceHolder1_imgPartImage`
+DESCRIPTION: `span#ContentPlaceHolder1_lblPartDescription > p`
+URL: `URL`
+PRODUCT SPECIFCATIONS: `.specs`
+- PRODUCT DETAILS
+- GENERAL PARAMETERS
+TECHNICAL DATASHEET URL: `.spec-container ds-action-container`
 
+
+"""
+ SatNow Web Scraper Utility
+ Python web scraper for the SatNow site to get information about satellite components from the SatNow site
+ 
+ OBJECTIVE: streamline the component analysis phase of satellites 
+
+ SEQUENCE: 
+ 1. Enumerate through satnow website URL paths + display taxonomic structure via TUI
+ 2. Tabulate / categorize information
+ 3. Parse the output
+ 4. Allow user to search and sift through output with ease
+ 5. Save as any output (ie. PDF, CSV, DAT, etc)
+
+ USAGE: python3 satnowscraper.py [-o (output)] 
+
+ Written by G4LXY @ 10/3/2024 9:30:03 PT - Earth (Sol III)
+ G4LXY 🙮  M4R$ 
+"""
+
+### Current Script State
+- [] `scapre_item.py`
+- [] `scrape_contents.py`
+- [] `scrape_contents_all_numbers.py`
+- [] `scrape_contents_all_numbers_visual.py`
+- [] `scrape_contents_all_numbers_visual_and_output_txt.py`
+- [] `scrape_contents_v2.py`

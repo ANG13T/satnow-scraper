@@ -130,16 +130,17 @@ subsystems = {
     ]
 }
 
-tree = Tree("[bold white]🛰️  SATELLITE SUBSYSTEMS", guide_style="bold #5f00ff")
-# Iterate through the subsystems dictionary to add categories and components to the tree
-for category, components in subsystems.items():
-    # Add a branch for each category with a galaxy-like color
-    category_branch = tree.add(f"[bold #a500ff]{category}")  # Neon purple for category
+def display_subsystems():
+    tree = Tree("\n [bold white]🛰️  SATELLITE SUBSYSTEMS", guide_style="bold #5f00ff")
+    # Iterate through the subsystems dictionary to add categories and components to the tree
+    for category, components in subsystems.items():
+        # Add a branch for each category with a galaxy-like color
+        category_branch = tree.add(f"[bold #a500ff]{category}")  # Neon purple for category
 
-    # Add each component as a leaf under the category branch with cosmic hues
-    for component in components:
-        # Use a mix of cyan, magenta, and space-gray colors for components
-        category_branch.add(f"[#00d7ff]{component}")  # Bright cyan for components (star-like glow)
+        # Add each component as a leaf under the category branch with cosmic hues
+        for component in components:
+            # Use a mix of cyan, magenta, and space-gray colors for components
+            category_branch.add(f"[#00d7ff]{component}")  # Bright cyan for components (star-like glow)
 
-# Display the tree using Rich's print function
-print(tree)
+    # Display the tree using Rich's print function
+    print(tree)
