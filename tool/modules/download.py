@@ -154,6 +154,7 @@ def display_download_options(data):
         print_line("Invalid option. Please choose a number between 1 and 5.", "bold red")
 
 def download_subsystem():
+    # TODO: automate and streamline the following
     url = input("Enter the URL to scrape: ")
     result = scrape_site_with_pagination(url)
     display_download_options(result)

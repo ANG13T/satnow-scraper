@@ -54,3 +54,6 @@ Multi-line Variant
     imag -- the imaginary part (default 0.0)
 """
 ```
+SCAN SUBSYSTEM CATALOG -> VIEW SUBSYSTEMS -> VIEW SUB-SUBSYSTEMS -> VIEW COMPONENTS
+
+SCAN COMPONENT -> 
