@@ -6,15 +6,15 @@ from rich.panel import Panel
 import csv
 from modules.scraper import scrape_site_with_pagination
 from modules.gui import display_menu_prompt, print_line, print_input
+from modules.display import select_subsystem, display_subtopics, select_subsystem_topic, get_url_from_subsystem, select_component
 
 console = Console()
 
 menu_items = [
     ("1.", "ENTIRE CATALOG"),
-    ("2.", "SUBSYSTEM"),
-    ("3.", "SUBSYSTEM SUBTOPIC"),
-    ("4.", "ITEM DETAILS"),
-    ("5.", "EXIT"),
+    ("2.", "SUBSYSTEM ITEMS"),
+    ("3.", "ITEM DETAILS"),
+    ("4.", "EXIT"),
 ]
 
 download_items = [
@@ -51,6 +51,18 @@ def save_to_txt(data, filename):
         print(f"Data successfully saved to {filename}")
     except IOError as e:
         print(f"Error saving data to file: {e}")
+
+
+# Functions to Download Item Data
+
+def save_to_json_item(data, filename):
+    print(data, filename)
+
+def save_to_csv_item(data, filename):
+    print(data, filename)
+
+def save_to_txt_item(data, filename):
+    print(data, filename)
 
 # Helper Functions for `save_to_csv`
 
@@ -125,16 +137,11 @@ def display_download_prompt():
     elif choice == "2":
         download_subsystem()
     elif choice == "3":
-        display_subsystems()
-    elif choice == "4":
         download_item_specific_page()
-    elif choice == "5":
+    elif choice == "4":
         exit_program()
     else:
         print_line("Invalid option. Please choose a number between 1 and 5.", "bold red")
-
-def download_entire_catalog():
-    pass
 
 def display_download_options(data):
     print_line("\n 📁 FILE FORMAT", "bold")
@@ -143,7 +150,6 @@ def display_download_options(data):
 
     file_name = print_input("Enter file name: ", "blue")
 
-    # Execute the corresponding action
     if choice == "1":
         save_to_json(data, file_name + ".json")
     elif choice == "2":
@@ -153,17 +159,47 @@ def display_download_options(data):
     else:
         print_line("Invalid option. Please choose a number between 1 and 5.", "bold red")
 
+def display_download_options_item(data):
+    print_line("\n 📁 FILE FORMAT", "bold")
+
+    choice = display_menu_prompt(download_items, "bright_magenta", False)
+
+    file_name = print_input("Enter file name: ", "blue")
+
+    if choice == "1":
+        save_to_json_item(data, file_name + ".json")
+    elif choice == "2":
+        save_to_csv_item(data, file_name + ".csv")
+    elif choice == "3":
+        save_to_txt_item(data, file_name + ".txt")
+    else:
+        print_line("Invalid option. Please choose a number between 1 and 5.", "bold red")
+
+def download_entire_catalog():
+    # go over all the relevant URLs from the hardcoded list
+    # iterate over each subsystem
+    # iterate over each item
+    # add everything to a list structure (determine it inside of a file)
+    # download options
+    pass
+
 def download_subsystem():
-    # TODO: automate and streamline the following
-    url = input("Enter the URL to scrape: ")
+    input = select_subsystem()
+    subtopic = select_subsystem_topic(input)
+    url = get_url_from_subsystem(subtopic)
     result = scrape_site_with_pagination(url)
     display_download_options(result)
 
-def display_subsystems():
-    pass
-
 def download_item_specific_page():
-    pass
+    input = select_subsystem()
+    subtopic = select_subsystem_topic(input)
+    url = get_url_from_subsystem(subtopic)
+    result = scrape_site_with_pagination(url)
+    data = json.loads(json.dumps(result))["items"]
+    component_index = select_component(input, data)
+    component_url = component["link"]
+    component_data = scrape_item(component_url)
+    display_download_options_item(component_data)
 
 def exit_program():
     print_line("Exiting the program...", "bold red")

@@ -36,11 +36,9 @@ def scrape_site_with_pagination(url):
     total_pages = get_total_pages(url)
     all_items = []
 
-    print(f"Total pages found: {total_pages}")
 
     for page_number in range(1, total_pages + 1):
         page_url = f"{url}?page={page_number}"
-        print(f"Scraping page {page_number}: {page_url}")
         page_items = scrape_page(page_url)
         all_items.extend(page_items)
 
@@ -88,6 +86,63 @@ def scrape_page(url):
             if details:
                 item_data['details'] = details
 
+            items.append(item_data)
+
+        return items
+
+    except requests.RequestException as e:
+        print(f"Error fetching {url}: {e}")
+        return []
+
+def scrape_item(url):
+    try:
+        response = requests.get(url)
+        soup = BeautifulSoup(response.content, 'html.parser')
+
+        items = []
+
+        # Find all elements with the 'specs' class
+        for item in soup.select('.specs'):
+            item_data = {}
+            product_details = {}
+            general_parameters = {}
+
+            product_details_section = item.select_one('.spec-container:nth-of-type(1) .spec-values ul')
+            if product_details_section:
+                for detail in product_details_section.find_all('li'):
+                    field = detail.select_one('.field')
+                    value = detail.select_one('.value')
+                    if field and value:
+                        product_details[field.get_text(strip=True)] = value.get_text(strip=True)
+
+            general_parameters_section = item.select_one('.spec-container:nth-of-type(2) .spec-values ul')
+            if general_parameters_section:
+                for param in general_parameters_section.find_all('li'):
+                    field = param.select_one('.field')
+                    value = param.select_one('.value')
+                    if field and value:
+                        general_parameters[field.get_text(strip=True)] = value.get_text(strip=True)
+
+            technical_document_datasheet = None
+            technical_docs_section = item.select_one('.spec-container.ds-action-container .spec-values ul')
+            if technical_docs_section:
+                datasheet_link = technical_docs_section.select_one('a')
+                if datasheet_link and 'href' in datasheet_link.attrs:
+                    technical_document_datasheet = datasheet_link['href']
+
+            manufacturer_website_link = None
+            manufacturer_link_section = item.select_one(".manuwebsitelink-similar")
+            if manufacturer_link_section:
+                manufacturer_link = manufacturer_link_section.select_one('a')  # Adjust selector if necessary
+                if manufacturer_link and 'href' in manufacturer_link.attrs:
+                    manufacturer_website_link = manufacturer_link['href']
+
+            # Compile data into item_data dictionary
+            item_data['product_details'] = product_details
+            item_data['general_parameters'] = general_parameters
+            item_data['technical_document_datasheet'] = technical_document_datasheet
+            item_data['manufacturer_website_link'] = manufacturer_website_link  # Add the manufacturer website link
+            item_data['url'] = url
             items.append(item_data)
 
         return items

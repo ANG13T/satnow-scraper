@@ -1,12 +1,14 @@
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
-from modules.display import display_subsystems
-from modules.download import display_download_prompt
+from modules.display import select_subsystem, display_subtopics, select_subsystem_topic, get_url_from_subsystem, select_component
+from modules.download import display_download_prompt, flatten_json_keys, gather_all_keys, gather_all_data
+from modules.scraper import scrape_site_with_pagination, scrape_item
+from modules.gui import print_styled_items, print_styled_component, print_styled_items_with_keyword_highlights, print_styled_component
+import json
 
 console = Console()
 
-# Scan should soley print and download should present options (entire [breakdown process] + subsystem + specific item) 
 menu_items = [
     ("1.", "SCAN SUBSYSTEM CATALOG"),
     ("2.", "SCAN COMPONENT"),
@@ -23,12 +25,45 @@ def print_banner():
     except FileNotFoundError:
         console.print("[bold red]Banner file not found![/bold red]")
 
-def download_entire_catalog():
-    console.print("[bold green]Downloading entire catalog...[/bold green]")
+def search_keyword(data, keyword):
+    matching_items = []
+    for item in data:
+        for key, value in item.items():
+            if key == "details":
+                for k, v in value.items():
+                    if keyword in k or keyword in v:
+                        matching_items.append(item)
+            else:
+                if keyword in key or keyword in value:
+                    matching_items.append(item)
+    return matching_items
 
-def download_subsystem():
-    subsystem_name = console.input("[cyan]Enter the subsystem name to download: [/cyan]")
-    console.print(f"[bold green]Downloading subsystem: {subsystem_name}...[/bold green]")
+def scan_subsystem_items():
+    input = select_subsystem()
+    subtopic = select_subsystem_topic(input)
+    url = get_url_from_subsystem(subtopic)
+    result = scrape_site_with_pagination(url)
+    data = json.loads(json.dumps(result))
+    print_styled_items(data["items"])
+    val = console.input("[cyan]Press Enter to Continue or (S to Search Keyword)...[/cyan]")
+
+    while val == "S" or val == "s":
+        keys = gather_all_keys(data)
+        search_key = console.input("[cyan]Enter Keyword to Search: [/cyan]")
+        search_result = search_keyword(data["items"], search_key)
+        print_styled_items_with_keyword_highlights(search_result, search_key)
+        val = console.input("[cyan]Press Enter to Continue or (S to Search Keyword)...[/cyan]")
+
+def scan_component():
+    input = select_subsystem()
+    subtopic = select_subsystem_topic(input)
+    url = get_url_from_subsystem(subtopic)
+    result = scrape_site_with_pagination(url)
+    data = json.loads(json.dumps(result))["items"]
+    component = select_component(input, data)
+    component_url = component["link"]
+    component_data = scrape_item(component_url)
+    print_styled_component(component_data[0])
 
 def view_subsystems():
     console.print("[bold green]Viewing subsystems...[/bold green]")
@@ -46,14 +81,9 @@ def exit_program():
     console.print("[bold red]Exiting the program...[/bold red]")
     exit()
 
-# Create the title and menu text
-title = Text("Satellite Component Catalog CLI", style="bold white on #1f1f7a", justify="center")
-
 while True:
-    # Construct the menu
     menu_lines = "\n".join([f"[cyan]{item[0]}[/cyan] [bold]{item[1]}[/bold]" for item in menu_items])
-    
-    # Create a panel to display the menu
+
     menu_panel = Panel(
         f"{menu_lines}",
         border_style="bright_magenta",
@@ -61,20 +91,15 @@ while True:
     )
     
     print_banner()
-
-    # Print the styled menu
     console.print(menu_panel)
-
-    # Get user input
     choice = console.input("[cyan]Please select an option (1-5): [/cyan]")
-    
-    # Execute the corresponding action
+
     if choice == "1":
-        download_entire_catalog()
+        scan_subsystem_items()
     elif choice == "2":
-        download_subsystem()
+        scan_component()
     elif choice == "3":
-        display_subsystems()
+        display_subtopics()
     elif choice == "4":
         display_download_prompt()
     elif choice == "5":
@@ -82,6 +107,4 @@ while True:
     else:
         console.print("[bold red]Invalid option. Please choose a number between 1 and 5.[/bold red]")
 
-    # Add a pause after each operation
     console.input("[cyan]Press Enter to continue...[/cyan]")
-

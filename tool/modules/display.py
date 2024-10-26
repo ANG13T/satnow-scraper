@@ -1,146 +1,57 @@
 from rich import print
 from rich.tree import Tree
+from rich.console import Console
+from modules.config import OUTLINE, SUBSYSTEMS, SUBSUBSYSTEMS_URLS, SUBSUBSYSTEMS
 
-subsystems = {
-    "COMMAND & DATA HANDLING SYSTEMS": [
-        "Atomic Clocks",
-        "FPGAs",
-        "Memory",
-        "Microcontrollers",
-        "On-Board Computers"
-    ],
-    "COMMUNICATIONS SYSTEMS": [
-        "GNSS Receivers",
-        "Satellite Antenna Systems",
-        "Satellite Antennas",
-        "Satellite Cameras",
-        "Software Defined Radios",
-        "Solid State Recorders",
-        "Space Qualified Crystals",
-        "Space Reflectors",
-        "Space Transmitters",
-        "Satellite Transponders"
-    ],
-    "LASER AND PHOTONICS": [
-        "Laser Communication Terminals",
-        "Optocoupler"
-    ],
-    "POWER SYSTEMS": [
-        "Batteries",
-        "Cryocoolers",
-        "Power Conditioning and Distribution Units",
-        "Power Processing Unit for Thrusters",
-        "Satellite Electrical Power Systems",
-        "Solar Cells",
-        "Solar Panels"
-    ],
-    "SENSORS & ACTUATORS": [
-        "Accelerometers",
-        "Inertial Measurement Units",
-        "Space Actuators",
-        "Temperature Sensors"
-    ],
-    "SPACE MECHANISMS": [
-        "Antenna Positioning Mechanisms",
-        "Attach and Release Mechanisms",
-        "Solar Array Drive Mechanisms"
-    ],
-    "SPACE SIMULATORS": [
-        "ADCS Simulators",
-        "GNSS Simulators",
-        "Magnetic Field Simulators",
-        "Star Tracker Simulators",
-        "Sun Sensor Simulators"
-    ],
-    "THERMAL STRAPS": [
-        "Thermal Straps"
-    ],
-    "PROPULSION SYSTEMS": [
-        "Gimbals",
-        "Propellant Tanks",
-        "Spacecraft Valves",
-        "Thrusters",
-        "Bipropellant Thrusters",
-        "Cold Gas Thrusters",
-        "Electric Propulsion Thrusters",
-        "Electrospray Thrusters",
-        "Electrothermal Thruster",
-        "Fiber-fed Pulsed Plasma Thrusters",
-        "Gridded Ion Thrusters",
-        "Hall Effect Thrusters",
-        "HPGP Thrusters",
-        "Hydrazine Thrusters",
-        "RF Ion Thrusters",
-        "Vacuum Arc Thrusters",
-        "Warm Gas Thruster",
-        "Water Resistojet"
-    ],
-    "BUS AND PLATFORMS": [
-        "CubeSat Platforms",
-        "MicroSat Platforms",
-        "NanoSat Platforms",
-        "Satellite Bus & Platforms",
-        "SmallSat Platforms"
-    ],
-    "ELECTRICAL / ELECTRONIC COMPONENTS": [
-        "Amplifiers",
-        "Analog Phase Shifters",
-        "Analog to Digital Converters",
-        "Baluns",
-        "Cable Assemblies",
-        "Capacitors",
-        "Circulators",
-        "Comparators",
-        "Couplers",
-        "DC to DC Converters",
-        "Digital Phase Shifters",
-        "Diodes",
-        "Diplexers",
-        "Fixed Attenuators",
-        "Frequency Synthesizers",
-        "GaN Transistors",
-        "Inductors",
-        "Isolators",
-        "LDO Voltage Regulators",
-        "Log Detectors",
-        "Mixers",
-        "MOSFETs",
-        "Multipliers",
-        "Oscillators",
-        "Power Dividers",
-        "Power Transformers",
-        "Resistors",
-        "RF Connectors",
-        "RF Filters",
-        "Solid State Relays",
-        "Switches",
-        "Terminations",
-        "Transistors",
-        "Variable Attenuators"
-    ],
-    "ATTITUDE CONTROL & DETERMINATION SYSTEMS": [
-        "ADCS Systems",
-        "Control Moment Gyroscopes",
-        "Earth/Horizon Sensors",
-        "Magnetometers",
-        "Magnetorquers",
-        "Reaction Wheels",
-        "Star Trackers",
-        "Sun Sensors"
-    ]
-}
+console = Console()
 
-def display_subsystems():
+def display_subtopics():
     tree = Tree("\n [bold white]🛰️  SATELLITE SUBSYSTEMS", guide_style="bold #5f00ff")
-    # Iterate through the subsystems dictionary to add categories and components to the tree
-    for category, components in subsystems.items():
-        # Add a branch for each category with a galaxy-like color
-        category_branch = tree.add(f"[bold #a500ff]{category}")  # Neon purple for category
+    for category, components in OUTLINE.items():
+        category_branch = tree.add(f"[bold #a500ff]{category}")
 
-        # Add each component as a leaf under the category branch with cosmic hues
         for component in components:
-            # Use a mix of cyan, magenta, and space-gray colors for components
-            category_branch.add(f"[#00d7ff]{component}")  # Bright cyan for components (star-like glow)
+            category_branch.add(f"[#00d7ff]{component}")
 
-    # Display the tree using Rich's print function
     print(tree)
+
+def get_url_from_subsystem(subsystem_name):
+    for item in SUBSUBSYSTEMS_URLS:
+        if item['item'] == subsystem_name:
+            return item['url']
+
+def get_subtopics_by_index(index):
+    subsystem_names = list(OUTLINE.keys())
+
+    if 0 <= index < len(subsystem_names):
+        subsystem_name = subsystem_names[index]
+        return OUTLINE[subsystem_name]
+    else:
+        raise IndexError("Subsystem index out of range.")
+
+def select_subsystem():
+    print("\n[bold white]🛰️  SATELLITE SUBSYSTEMS[/bold white]")
+    for i, category in enumerate(OUTLINE):
+        print(f"[bold #a500ff]{i + 1}: {category}[/bold #a500ff]")
+
+    choice = console.input(f"[cyan]Please select an option (1-{(len(OUTLINE))}): [/cyan]")
+    # TODO: sanitize input
+    return int(choice) - 1
+
+def select_subsystem_topic(subsystem_index):
+    print("\n[bold white]🛰️  SUBSYSTEM TOPICS[/bold white]")
+    subsystem_name = list(OUTLINE.keys())[subsystem_index]
+    subtopics = get_subtopics_by_index(subsystem_index)
+    for i, category in enumerate(subtopics):
+        print(f"[bold #a500ff]{i + 1}: {category}[/bold #a500ff]")
+    choice = console.input(f"[cyan]Please select an option (1-{(len(subtopics))}): [/cyan]")
+    return subtopics[int(choice) - 1]
+
+def select_component(subsystem_index, components):
+    print("\n[bold white]🛰️  COMPONENTS[/bold white]")
+    subsystem_name = list(OUTLINE.keys())[subsystem_index]
+    subtopics = get_subtopics_by_index(subsystem_index)
+    for i, category in enumerate(components):
+        print(f"[bold #a500ff]{i + 1}: {category['title']}[/bold #a500ff]")
+    choice = console.input(f"[cyan]Please select an option (1-{(len(components))}): [/cyan]")
+    return components[int(choice) - 1]
