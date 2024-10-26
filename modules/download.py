@@ -4,9 +4,10 @@ import json
 from rich.console import Console
 from rich.panel import Panel
 import csv
-from modules.scraper import scrape_site_with_pagination
+from modules.scraper import scrape_site_with_pagination, scrape_item
 from modules.gui import display_menu_prompt, print_line, print_input
 from modules.display import select_subsystem, display_subtopics, select_subsystem_topic, get_url_from_subsystem, select_component
+from modules.config import SUBSUBSYSTEMS_URLS
 
 console = Console()
 
@@ -35,8 +36,9 @@ def save_to_json(data, filename):
 def save_to_txt(data, filename):
     data = json.loads(json.dumps(data))
     lines = []
-    for item in data['items']:
-        lines.append("=" * 70)
+    for item in data:
+        if len(data) > 1:
+            lines.append("=" * 70)
         for k, v in item.items():
             if k == 'details':
                 for key, value in v.items():
@@ -54,15 +56,25 @@ def save_to_txt(data, filename):
 
 
 # Functions to Download Item Data
-
-def save_to_json_item(data, filename):
-    print(data, filename)
-
-def save_to_csv_item(data, filename):
-    print(data, filename)
-
 def save_to_txt_item(data, filename):
-    print(data, filename)
+    data = json.loads(json.dumps(data))
+    lines = []
+    for item in items:
+        lines.append("=" * 70)
+        for k, v in item.items():
+            if k == 'product_details' or  k == 'general_parameters':
+                for key, value in v.items():
+                    lines.append(f"{key.upper()} {value}")
+            else:
+                lines.append(f"{k.upper()} {v}")
+
+    try:
+        with open(filename, 'w') as f:
+            for line in lines:
+                f.write(str(line) + "\n")
+        print(f"Data successfully saved to {filename}")
+    except IOError as e:
+        print(f"Error saving data to file: {e}")
 
 # Helper Functions for `save_to_csv`
 
@@ -87,16 +99,45 @@ def flatten_json_keys(nested_dict, parent_key=''):
 # Function to gather all unique keys for CSV header
 def gather_all_keys(json_data):
     all_keys = set()  # Use a set to avoid duplicate keys
-    for item in json_data['items']:
+    for item in json_data:
         item_keys = flatten_json_keys(item)
         all_keys.update(item_keys)
     return sorted(all_keys)
 
 def gather_all_data(data, csv_header):
     output = []
-    for item in data['items']:
+    for item in data:
         mapping = {header.strip(): "" for header in csv_header}
         flatten_json = lambda d: {**{k: v for k, v in d.items() if k != 'details'}, **{k: v for k, v in d['details'].items()}}
+        item = flatten_json(item)
+        for key, value in item.items():
+            if key[len(key) - 1] == ":":
+                full_key = key[:len(key) - 1]
+            else:
+                full_key = key
+
+            if full_key[0].islower():
+                full_key = full_key.capitalize()
+
+            if full_key in mapping:
+                mapping[full_key] = value
+            elif full_key in item.get('details', {}):
+                mapping[full_key] = item['details'][source_key]
+            else:
+                mapping[full_key] = ""
+        output.append(mapping)
+    return output
+
+def gather_all_data_item(data, csv_header):
+    output = []
+    for item in data:
+        mapping = {header.strip(): "" for header in csv_header}
+        flatten_json = lambda d: {
+        **{k: v for k, v in d.items() if k not in ['product_details', 'general_parameters']},
+        **{k: v for k, v in d.get('product_details', {}).items()},
+        **{k: v for k, v in d.get('general_parameters', {}).items()
+        }
+}
         item = flatten_json(item)
         for key, value in item.items():
             if key[len(key) - 1] == ":":
@@ -128,6 +169,18 @@ def save_to_csv(data, filename):
             writer.writerow(item.values())
     print(f"Data successfully saved to {filename}")
 
+def save_to_csv_item(data, filename):
+    data = json.loads(json.dumps(data))
+    csv_headers = gather_all_keys(data)
+    data = gather_all_data_item(data, csv_headers)
+
+    with open(filename, mode='w', newline='') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(csv_headers)
+        for item in data:
+            writer.writerow(item.values())
+    print(f"Data successfully saved to {filename}")
+
 def display_download_prompt():
     print_line("\n 💾 DOWNLOAD OPTIONS", "bold")
     choice = display_menu_prompt(menu_items, "bright_magenta", False)
@@ -151,11 +204,11 @@ def display_download_options(data):
     file_name = print_input("Enter file name: ", "blue")
 
     if choice == "1":
-        save_to_json(data, file_name + ".json")
+        save_to_json(data["items"], file_name + ".json")
     elif choice == "2":
-        save_to_csv(data, file_name + ".csv")
+        save_to_csv(data["items"], file_name + ".csv")
     elif choice == "3":
-        save_to_txt(data, file_name + ".txt")
+        save_to_txt(data["items"], file_name + ".txt")
     else:
         print_line("Invalid option. Please choose a number between 1 and 5.", "bold red")
 
@@ -167,21 +220,26 @@ def display_download_options_item(data):
     file_name = print_input("Enter file name: ", "blue")
 
     if choice == "1":
-        save_to_json_item(data, file_name + ".json")
+        save_to_json([data], file_name + ".json")
     elif choice == "2":
         save_to_csv_item(data, file_name + ".csv")
     elif choice == "3":
-        save_to_txt_item(data, file_name + ".txt")
+        save_to_txt(data, file_name + ".txt")
     else:
         print_line("Invalid option. Please choose a number between 1 and 5.", "bold red")
 
 def download_entire_catalog():
-    # go over all the relevant URLs from the hardcoded list
-    # iterate over each subsystem
-    # iterate over each item
-    # add everything to a list structure (determine it inside of a file)
-    # download options
-    pass
+    all_items = []
+    for subsystem in SUBSUBSYSTEMS_URLS:
+        result = scrape_site_with_pagination(subsystem["url"])
+        data = json.loads(json.dumps(result))["items"]
+
+        for component in data:
+            component_url = component["link"]
+            component_data = scrape_item(component_url)
+            all_items.append(component_data)
+
+    print(all_items)
 
 def download_subsystem():
     input = select_subsystem()
@@ -196,7 +254,7 @@ def download_item_specific_page():
     url = get_url_from_subsystem(subtopic)
     result = scrape_site_with_pagination(url)
     data = json.loads(json.dumps(result))["items"]
-    component_index = select_component(input, data)
+    component = select_component(input, data)
     component_url = component["link"]
     component_data = scrape_item(component_url)
     display_download_options_item(component_data)

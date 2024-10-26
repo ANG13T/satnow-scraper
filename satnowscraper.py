@@ -1,3 +1,13 @@
+"""
+ SatNow Web Scraper Utility
+ Python web scraper for the SatNow site to get information about satellite components from the SatNow site
+
+ USAGE: python3 satnowscraper.py
+
+ Written by G4LXY @ 10/25/2024 [19:13:58 PT / 02:14:35 TAI] - Earth (Sol III)
+ G4LXY 🙮 M4R$
+"""
+
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
