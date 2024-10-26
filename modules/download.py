@@ -12,10 +12,9 @@ from modules.config import SUBSUBSYSTEMS_URLS
 console = Console()
 
 menu_items = [
-    ("1.", "ENTIRE CATALOG"),
-    ("2.", "SUBSYSTEM ITEMS"),
-    ("3.", "ITEM DETAILS"),
-    ("4.", "EXIT"),
+    ("1.", "SUBSYSTEM ITEMS"),
+    ("2.", "ITEM DETAILS"),
+    ("3.", "EXIT"),
 ]
 
 download_items = [
@@ -186,12 +185,10 @@ def display_download_prompt():
     choice = display_menu_prompt(menu_items, "bright_magenta", False)
 
     if choice == "1":
-        download_entire_catalog()
-    elif choice == "2":
         download_subsystem()
-    elif choice == "3":
+    elif choice == "2":
         download_item_specific_page()
-    elif choice == "4":
+    elif choice == "3":
         exit_program()
     else:
         print_line("Invalid option. Please choose a number between 1 and 5.", "bold red")
@@ -227,19 +224,6 @@ def display_download_options_item(data):
         save_to_txt(data, file_name + ".txt")
     else:
         print_line("Invalid option. Please choose a number between 1 and 5.", "bold red")
-
-def download_entire_catalog():
-    all_items = []
-    for subsystem in SUBSUBSYSTEMS_URLS:
-        result = scrape_site_with_pagination(subsystem["url"])
-        data = json.loads(json.dumps(result))["items"]
-
-        for component in data:
-            component_url = component["link"]
-            component_data = scrape_item(component_url)
-            all_items.append(component_data)
-
-    print(all_items)
 
 def download_subsystem():
     input = select_subsystem()
