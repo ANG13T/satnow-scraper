@@ -1,6 +1,6 @@
 """
  SatNow Web Scraper Utility
- Python web scraper for the SatNow site to get information about satellite components from the SatNow site
+ Python scraper for SatNow to extract satellite component and subsystem details directly from the site.
 
  USAGE: python3 satnowscraper.py
 
