@@ -1,4 +1,4 @@
-# SATNOW SCRAPER 
+# SATNOW SCRAPER 🛸
 
 OSINT web scraper for SatNow to extract detailed satellite component and subsystem specs for in-depth reconnaissance
 All data is scraped from [SatNow](https://www.satnow.com/)
