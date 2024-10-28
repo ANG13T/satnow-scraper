@@ -16,6 +16,8 @@ All data is scraped from [SatNow](https://www.satnow.com/)
 ```
 git clone https://github.com/ANG13T/satnow-scraper.git
 cd satnow-scraper
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 python3 satnowscraper.py
 ```
