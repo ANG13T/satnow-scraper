@@ -53,5 +53,5 @@ def print_styled_component(component):
         console.print(f"[magenta bold]{key.upper()}:[/magenta bold] {value}")
     for key, value in component['general_parameters'].items():
         console.print(f"[magenta bold]{key.upper()}:[/magenta bold] {value}")
-    console.print(f"[magenta bold]{"Manufacturer Website Link".upper()}:[/magenta bold] {component.get('manufacturer_website_link', 'N/A')}")
+    console.print(f"[magenta bold]{'Manufacturer Website Link'.upper()}:[/magenta bold] {component.get('manufacturer_website_link', 'N/A')}")
     console.print(f"[magenta bold]URL:[/magenta bold] {component['url']}")

@@ -58,7 +58,7 @@ def scan_subsystem_items():
     val = console.input("[cyan]Press Enter to Continue or (S to Search Keyword)...[/cyan]")
 
     while val == "S" or val == "s":
-        keys = gather_all_keys(data)
+        keys = gather_all_keys(data["items"])
         search_key = console.input("[cyan]Enter Keyword to Search: [/cyan]")
         search_result = search_keyword(data["items"], search_key)
         print_styled_items_with_keyword_highlights(search_result, search_key)
