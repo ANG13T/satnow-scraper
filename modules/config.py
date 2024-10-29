@@ -19,7 +19,7 @@ OUTLINE = {
         "FPGAs",
         "Memory",
         "Microcontrollers",
-        "On-Board Computers"
+        "On-Board Computers (OBC)"
     ],
     "COMMUNICATIONS SYSTEMS": [
         "GNSS Receivers",
@@ -150,7 +150,7 @@ SUBSUBSYSTEMS = [
             "FPGAs",
             "Memory",
             "Microcontrollers",
-            "On-Board Computers"
+            "On-Board Computers (OBC)"
         ]
     },
     {

@@ -1,6 +1,7 @@
 # SATNOW SCRAPER 🛸
 
-OSINT web scraper for SatNow to extract detailed satellite component and subsystem specs for in-depth reconnaissance
+OSINT web scraper for SatNow to extract details of satellite components and subsystem specs for in-depth reconnaissance.
+
 All data is scraped from [SatNow](https://www.satnow.com/)
 
 ![https://github.com/ANG13T/satnow-scraper/blob/main/assets/SNS_3.png](https://github.com/ANG13T/satnow-scraper/blob/main/assets/SNS_3.png)
@@ -15,6 +16,8 @@ All data is scraped from [SatNow](https://www.satnow.com/)
 ```
 git clone https://github.com/ANG13T/satnow-scraper.git
 cd satnow-scraper
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 python3 satnowscraper.py
 ```
