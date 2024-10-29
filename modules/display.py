@@ -18,7 +18,12 @@ def display_subtopics():
 def get_url_from_subsystem(subsystem_name):
     for item in SUBSUBSYSTEMS_URLS:
         if item['item'] == subsystem_name:
-            return item['url']
+            url = item.get('url')
+            if url:
+                return url
+            else:
+                raise ValueError(f"No URL found for subsystem: {subsystem_name}")
+    raise ValueError(f"Subsystem not found: {subsystem_name}")
 
 def get_subtopics_by_index(index):
     subsystem_names = list(OUTLINE.keys())
