@@ -38,7 +38,7 @@ def scrape_site_with_pagination(url):
 
 
     for page_number in range(1, total_pages + 1):
-        page_url = f"{url}?page={page_number}"
+        page_url = f"{url}/filters?page={page_number}"
         page_items = scrape_page(page_url)
         all_items.extend(page_items)
 
