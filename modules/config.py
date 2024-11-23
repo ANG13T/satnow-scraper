@@ -14,7 +14,7 @@ SUBSYSTEMS = [
 ]
 
 OUTLINE = {
-    "COMMAND & DATA HANDLING SYSTEMS": [
+    "COMMAND & DATA HANDLING": [
         "Atomic Clocks",
         "FPGAs",
         "Memory",
@@ -282,7 +282,7 @@ SUBSUBSYSTEMS_URLS = [
         "url": "https://www.satnow.com/search/microcontrollers"
     },
     {
-        "item": "On-Board Computers (OBC)",
+        "item": "On-Board Computers",
         "url": "https://www.satnow.com/search/on-board-computers"
     },
     {
