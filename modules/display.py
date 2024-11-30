@@ -28,15 +28,33 @@ def get_subtopics_by_index(index):
         return OUTLINE[subsystem_name]
     else:
         raise IndexError("Subsystem index out of range.")
-
 def select_subsystem():
-    print("\n[bold white]🛰️  SATELLITE SUBSYSTEMS[/bold white]")
-    for i, category in enumerate(OUTLINE):
-        print(f"[bold #a500ff]{i + 1}: {category}[/bold #a500ff]")
+    console.print("\n[bold white]🛰️  SATELLITE SUBSYSTEMS[/bold white]")
+    try:
+        # Display the options
+        for i, category in enumerate(OUTLINE):
+            console.print(f"[bold #a500ff]{i + 1}: {category}[/bold #a500ff]")
+        # Get user input
+        choice = console.input(f"[cyan]Please select an option (1-{len(OUTLINE)}): [/cyan]").strip()
+        # Check for empty input
+        if not choice:
+            console.print("[bold red]No input detected. Please enter a number.[/bold red]")
+            return None  # Gracefully return to the caller
+        # Attempt to convert input to an integer
+        choice = int(choice)
+        # Ensure choice is within a valid range
+        if choice < 1 or choice > len(OUTLINE):
+            console.print(f"[bold red]Invalid choice. Please select a number between 1 and {len(OUTLINE)}.[/bold red]")
+            return None
+        return choice - 1
+    except ValueError as e:
+        console.print(f"[bold red]Invalid input. Please enter a valid number: {e}[/bold red]")
+        return None
+    except Exception as e:
+        console.print(f"[bold red]An unexpected error occurred: {e}[/bold red]")
+        return None
 
-    choice = console.input(f"[cyan]Please select an option (1-{(len(OUTLINE))}): [/cyan]")
-    # TODO: sanitize input
-    return int(choice) - 1
+
 
 def select_subsystem_topic(subsystem_index):
     print("\n[bold white]🛰️  SUBSYSTEM TOPICS[/bold white]")
